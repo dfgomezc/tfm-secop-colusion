@@ -1,0 +1,85 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Bytecode y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Cuadernos
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Editores
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Variables de entorno locales
+.env
+.env.local
+!.env.ejemplo
+
+# Seudonimización: la sal y la correspondencia con los actores reales no se
+# publican. Sin la sal los seudónimos no pueden recomputarse aunque se conozca
+# el algoritmo, y sin la clave no pueden revertirse.
+config/sal_seudonimo.txt
+salidas/clave_seudonimos_RESTRINGIDO.csv
+*RESTRINGIDO*
+
+# Datos de origen: los JSONL del SECOP II y del RUES, unos 58 GB. Son datos
+# abiertos redescargables y no hacen falta para reproducir los resultados, que
+# parten de los parquet de datos/. Se conserva el README de la carpeta.
+INPUT/*
+!INPUT/README.md
+
+# Artefactos de ejecución: el modelo dimensional completo y los intermedios de
+# los modelos, 1,9 GB. Los reconstruye el código, y lo que de ellos es
+# publicable está en datos/, que sí se versiona.
+OUTPUTS/
+salidas/
+
+# Formatos de datos voluminosos, dondequiera que aparezcan
+*.duckdb
+*.duckdb.wal
+*.jsonl
+*.jsonl.gz
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.npz
+*.pkl
+*.joblib
+
+# El conjunto publicable es la excepción: se versiona a propósito
+!datos/**/*.parquet
+!datos/**/*.csv
+
+# Registros
+*.log
+logs/

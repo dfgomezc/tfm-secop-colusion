@@ -1,0 +1,20 @@
+[project]
+name = "tfm-secop-colusion"
+version = "1.0.0"
+description = "Análisis comparativo entre técnicas clásicas de grafos y Redes Neuronales de Grafos para la detección de colusión en el SECOP II de Colombia"
+requires-python = ">=3.10"
+dependencies = [
+  "duckdb>=1.0",
+  "pandas>=2.0",
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "scikit-learn>=1.4",
+  "networkx>=3.2",
+  "matplotlib>=3.8",
+  "pyarrow>=15.0",
+  "splink>=4.0",
+  "jupyter>=1.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["tfm*"]
