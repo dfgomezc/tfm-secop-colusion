@@ -1,0 +1,51 @@
+{
+  "estudio": "SECOP II 2025 - actores de la contratacion publica colombiana",
+
+  "origen": "../gold/parquet/nodo_2025/*.parquet",
+  "salida": "../gold/identidad",
+
+  "columnas": {
+    "id": "id_nodo",
+    "nombre": "nombre_canonico",
+    "identificador": "documento",
+    "tipo": "tipo_nodo"
+  },
+
+  "tipos_excluidos": ["union_temporal"],
+
+  "prefijos_genericos": [
+    "CONSORCIO", "UNION TEMPORAL", "UT", "U T", "CONSORCIA",
+    "JUNTA DE ACCION COMUNAL", "JUNTA DE", "FUNDACION", "ASOCIACION",
+    "CORPORACION", "COOPERATIVA", "INSTITUCION EDUCATIVA", "EMPRESA",
+    "SOCIEDAD"
+  ],
+
+  "columnas_exactas": [
+    "doc_representante_legal",
+    "correo",
+    "telefono",
+    "departamento_norm",
+    "camara_comercio",
+    "ciiu1"
+  ],
+
+  "bloqueo": [
+    "{x}.nombre_compacto",
+    "substr({x}.nombre_nucleo, 1, 10)",
+    "{x}.doc_representante_legal",
+    "{x}.correo",
+    "{x}.telefono",
+    "substr({x}.identificador, 1, length({x}.identificador) - 1)"
+  ],
+
+  "reglas_deterministas": [
+    "{x}.nombre_compacto",
+    ["{x}.doc_representante_legal", "{x}.departamento_norm"]
+  ],
+  "recall_deterministas": 0.7,
+
+  "umbrales": { "alto": 0.95, "medio": 0.80 },
+  "max_pares_u": 8000000,
+  "tope_pares_por_regla": 20000000,
+  "digito_verificacion": true
+}
