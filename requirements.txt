@@ -1,0 +1,63 @@
+# Dependencias del TFM. Versiones fijadas al mínimo con el que se validó el
+# pipeline; se admiten superiores dentro de la misma major.
+#
+#     python -m venv .venv
+#     .venv\Scripts\activate          (Windows)
+#     source .venv/bin/activate       (Linux o macOS)
+#     pip install -r requirements.txt
+
+# --- Datos y consulta ------------------------------------------------------
+duckdb>=1.0
+pyarrow>=15.0            # lectura de parquet desde pandas
+pandas>=2.0
+numpy>=1.26
+
+# --- Modelado --------------------------------------------------------------
+# El tope superior de scikit-learn no es una precaucion generica. El control de
+# fuga del apartado 5.2.2 ajusta una regresion lineal sobre las once variables
+# de V0, y esa matriz es numericamente singular: `strength` coincide con
+# `n_contratos`, `grado` con `n_entidades`, y ademas entran los logaritmos de
+# esas mismas magnitudes, de modo que su numero de condicion es del orden de
+# 1e16. Con una matriz asi la solucion de minimos cuadrados no es unica, y cada
+# version de la biblioteca puede elegir una distinta segun el controlador de
+# `lstsq` que use por debajo. Comprobado: con scikit-learn 1.9 los cinco R2
+# lineales de la Tabla 5.15 bajan entre dos y ocho milesimas y la fraccion
+# reconstruible pasa de 0,5194 a 0,4286, mientras que resolviendo el mismo
+# sistema con `numpy.linalg.lstsq` se recuperan exactamente los valores
+# publicados. Las cifras del documento corresponden al rango declarado aqui.
+scikit-learn>=1.4,<1.7
+scipy>=1.11              # matrices dispersas del paso de mensajes
+networkx>=3.2
+
+# --- Explicabilidad --------------------------------------------------------
+# Valores de Shapley por el algoritmo exacto para conjuntos de árboles, que es
+# lo que hace verificable la explicación del apartado 5.3.11: la suma de las
+# atribuciones reconstruye la puntuación del modelo.
+shap>=0.44
+
+# --- Resolución de identidad ----------------------------------------------
+# Splink 4 cambió la API respecto a la 3; el motor de tfm/identidad/ usa la 4.
+splink>=4.0
+
+# --- Figuras ---------------------------------------------------------------
+matplotlib>=3.8
+
+# --- Cuadernos -------------------------------------------------------------
+jupyterlab>=4.0
+ipykernel>=6.29
+nbconvert>=7.0           # ejecuta los cuadernos y deja su salida guardada
+
+# NOTA. Las dos redes neuronales de grafos del cuaderno 07 NO necesitan
+# PyTorch ni TensorFlow: la retropropagación está escrita a mano sobre NumPy y
+# se comprueba contra diferencias finitas. Es deliberado: acota la superficie de
+# la que depende reproducir los resultados, que con estas versiones devuelve los
+# mismos artefactos. Entre versiones distintas de numpy o scikit-learn la
+# igualdad deja de ser bit a bit —cambia el orden de las operaciones en coma
+# flotante y con él el último decimal—; lo que se sostiene son las métricas
+# publicadas, no cada predicción individual.
+#
+# Para regenerar el PDF de la memoria hacen falta además dos programas que NO
+# se instalan con pip:
+#   - pandoc          https://pandoc.org/installing.html
+#   - una distribución LaTeX con pdflatex (TeX Live, MiKTeX)
+# No son necesarios para ejecutar los análisis.
