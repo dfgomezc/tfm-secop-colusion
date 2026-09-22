@@ -167,7 +167,7 @@ def paso_3(estado):
     elif bloqueadas:
         print(f"  {len(listas)} de {len(listas) + len(bloqueadas)} etapas "
               "disponibles. La guía de ejecución explica\n"
-              "  por dónde entrar según lo que tengas: GUIA_DE_EJECUCION.md")
+              "  por dónde entrar según lo que tengas: README.md")
     else:
         print("  Todas las etapas disponibles: python orquestador.py --simular")
 

@@ -74,6 +74,27 @@ FAMILIAS = [
 ]
 
 
+def exige_nombres(con, patron_nodos):
+    """Comprueba que el modelo dimensional trae la razón social.
+
+    Esta etapa no puede correr sobre el conjunto distribuido, y no por un
+    detalle de implementación: además de las tablas produce la clave que
+    asocia cada seudónimo con el actor real, que es precisamente lo que no se
+    publica. Sus tres tablas de salida sí viajan, en `tablas/`.
+    """
+    columnas = con.execute(
+        f"DESCRIBE SELECT * FROM '{patron_nodos}'").df()["column_name"].tolist()
+    if "nombre" not in columnas:
+        raise SystemExit(
+            "Esta etapa necesita el modelo dimensional con la razón social.\n"
+            "El conjunto distribuido está seudonimizado y no la incluye, "
+            "porque esta etapa\ntambién produce la clave de correspondencia "
+            "entre seudónimo y actor real.\n"
+            "Sus tablas ya están publicadas en tablas/: "
+            "tabla_5_13_proveedores_cri.csv,\ntabla_5_14_entidades_triangulos.csv "
+            "y tabla_5_15_pares_coincidencia.csv.")
+
+
 def familia(nombre, tipo=None):
     """Clase de organismo, para conservar la lectura sin el nombre propio.
 
@@ -99,6 +120,7 @@ def esp(x, dec=0):
 
 def main():
     con = duckdb.connect()
+    exige_nombres(con, f"{PQ}/nodo_2025/*.parquet")
     con.execute("SET memory_limit='4GB'")
     seudo = os.path.join(PQ, "nodo_seudonimo", "nodo_seudonimo.parquet")
     if not os.path.exists(seudo):

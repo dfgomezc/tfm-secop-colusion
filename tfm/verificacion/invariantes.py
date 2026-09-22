@@ -23,6 +23,28 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 RAIZ = rutas.raiz()
 
 # tabla -> (filas esperadas, tolerancia relativa)
+#: Las tablas que forman el conjunto distribuido. El resto del modelo
+#: dimensional pesa 1,9 GB y no viaja en el repositorio, de modo que su
+#: ausencia no es un fallo cuando lo que se comprueba es ese conjunto: se
+#: reconoce por estar estas y faltar las demas.
+CONJUNTO_DISTRIBUIDO = (
+    "contrato_2025", "proceso_competencia", "nodo_2025", "nodo_entidad",
+    "vinculo_2025", "nodo_seudonimo", "splink_parametros", "fact_contrato",
+)
+
+#: `fact_contrato` viaja recortada a los contratos de 2025, que es lo unico
+#: que el analisis le pide. Su recuento en el conjunto distribuido es otro.
+ESPERADO_DISTRIBUIDO = {"fact_contrato": (1_050_857, 0.02)}
+
+
+def es_conjunto_distribuido(pq):
+    """Si lo que hay en `pq` es el conjunto publicado y no el modelo entero."""
+    def hay(tabla):
+        return bool([f for f in glob.glob(os.path.join(pq, tabla, "*.parquet"))
+                     if os.path.getsize(f) > 0])
+    return hay("nodo_2025") and hay("vinculo_2025") and not hay("fact_proceso")
+
+
 ESPERADO = {
     "dim_tiempo":                 (4_383, 0.30),
     "dim_departamento":             (357, 0.30),
@@ -73,13 +95,22 @@ def main():
     print("=" * 68)
 
     # --- 1. ficheros presentes -------------------------------------------
+    distribuido = es_conjunto_distribuido(pq)
+    if distribuido:
+        print("\nSe esta comprobando el CONJUNTO DISTRIBUIDO: las tablas del")
+        print("modelo dimensional que no viajan en el repositorio se omiten.")
     print("\n[1] Tablas publicadas en OUTPUTS/gold")
     con = duckdb.connect()
     con.execute(f"SET memory_limit='{a.ram}'")
     if a.hilos:
         con.execute(f"SET threads={a.hilos}")
 
-    for tabla, (esperadas, tol) in ESPERADO.items():
+    esperado = dict(ESPERADO)
+    if distribuido:
+        esperado = {k: v for k, v in esperado.items()
+                    if k in CONJUNTO_DISTRIBUIDO}
+        esperado.update(ESPERADO_DISTRIBUIDO)
+    for tabla, (esperadas, tol) in esperado.items():
         carpeta = os.path.join(pq, tabla)
         fs = sorted(glob.glob(os.path.join(carpeta, "*.parquet")))
         fs = [f for f in fs if os.path.getsize(f) > 0]
@@ -150,7 +181,11 @@ def main():
             avisos.append(f"{nombre}: vistas con ruta absoluta")
 
     # --- 3. coherencia ----------------------------------------------------
-    print("\n[3] Coherencia del modelo dimensional")
+    if distribuido:
+        print("\n[3] Coherencia del modelo dimensional")
+        print("  se omite: necesita las tablas de hechos completas")
+    else:
+        print("\n[3] Coherencia del modelo dimensional")
     if {"fact_contrato", "dim_entidad", "dim_proveedor"} <= montadas:
         c = con
         pruebas = [
@@ -188,58 +223,62 @@ def main():
                 fallos.append(etiqueta)
 
     print("\n[4] Coherencia del universo de red")
-    if {"nodo_2025", "vinculo_2025", "contrato_2025"} <= montadas:
-        c = con
-        c.execute("""CREATE OR REPLACE TEMP VIEW _nodos AS
-                     SELECT id_nodo FROM nodo_2025
-                     UNION SELECT id_nodo FROM nodo_entidad
-                     UNION SELECT id_nodo FROM nodo_representante""")
-        pruebas = [
-            ("id_nodo unico", "SELECT count(*) - count(DISTINCT id_nodo) FROM nodo_2025"),
-            ("sin aristas huerfanas",
-             """SELECT count(*) FROM vinculo_2025 v
-                WHERE NOT EXISTS (SELECT 1 FROM _nodos n WHERE n.id_nodo = v.origen)
-                   OR NOT EXISTS (SELECT 1 FROM _nodos n WHERE n.id_nodo = v.destino)"""),
-            ("sin aristas duplicadas",
-             "SELECT count(*) - count(DISTINCT (tipo_vinculo, origen, destino)) "
-             "FROM vinculo_2025"),
-            ("contratos dentro del rango 2025",
-             """SELECT count(*) FROM contrato_2025
-                WHERE fecha_firma < DATE '2025-01-01' OR fecha_firma > DATE '2025-12-31'"""),
-            ("todo contrato tiene nodo",
-             """SELECT count(*) FROM contrato_2025 c
-                WHERE NOT EXISTS (SELECT 1 FROM nodo_cuenta k
-                                  WHERE k.codigo_proveedor = c.codigo_proveedor)"""),
-        ]
-        for etiqueta, sql in pruebas:
-            try:
-                v = c.execute(sql).fetchone()[0]
-                print(f"  {'ok      ' if v == 0 else 'FALLA   '} {etiqueta}"
-                      + ("" if v == 0 else f"  -> {v:,}"))
-                if v != 0:
+    if distribuido:
+        print("  se omite: necesita nodo_cuenta y nodo_representante, que no")
+        print("  forman parte del conjunto distribuido")
+    else:
+        if {"nodo_2025", "vinculo_2025", "contrato_2025"} <= montadas:
+            c = con
+            c.execute("""CREATE OR REPLACE TEMP VIEW _nodos AS
+                         SELECT id_nodo FROM nodo_2025
+                         UNION SELECT id_nodo FROM nodo_entidad
+                         UNION SELECT id_nodo FROM nodo_representante""")
+            pruebas = [
+                ("id_nodo unico", "SELECT count(*) - count(DISTINCT id_nodo) FROM nodo_2025"),
+                ("sin aristas huerfanas",
+                 """SELECT count(*) FROM vinculo_2025 v
+                    WHERE NOT EXISTS (SELECT 1 FROM _nodos n WHERE n.id_nodo = v.origen)
+                       OR NOT EXISTS (SELECT 1 FROM _nodos n WHERE n.id_nodo = v.destino)"""),
+                ("sin aristas duplicadas",
+                 "SELECT count(*) - count(DISTINCT (tipo_vinculo, origen, destino)) "
+                 "FROM vinculo_2025"),
+                ("contratos dentro del rango 2025",
+                 """SELECT count(*) FROM contrato_2025
+                    WHERE fecha_firma < DATE '2025-01-01' OR fecha_firma > DATE '2025-12-31'"""),
+                ("todo contrato tiene nodo",
+                 """SELECT count(*) FROM contrato_2025 c
+                    WHERE NOT EXISTS (SELECT 1 FROM nodo_cuenta k
+                                      WHERE k.codigo_proveedor = c.codigo_proveedor)"""),
+            ]
+            for etiqueta, sql in pruebas:
+                try:
+                    v = c.execute(sql).fetchone()[0]
+                    print(f"  {'ok      ' if v == 0 else 'FALLA   '} {etiqueta}"
+                          + ("" if v == 0 else f"  -> {v:,}"))
+                    if v != 0:
+                        fallos.append(etiqueta)
+                except Exception as exc:
+                    print(f"  ERROR    {etiqueta}: {str(exc)[:50]}")
                     fallos.append(etiqueta)
-            except Exception as exc:
-                print(f"  ERROR    {etiqueta}: {str(exc)[:50]}")
-                fallos.append(etiqueta)
 
-        if a.detalle:
-            print("\n[5] Ejemplos")
-            print("\n  Un contrato con su proceso y su competencia:")
-            print(c.execute("""
-                SELECT c.id_contrato, c.id_portafolio, p.id_del_proceso,
-                       c.tipo_de_contrato, pc.n_oferentes
-                FROM contrato_2025 c JOIN proceso_2025 p USING (id_portafolio)
-                JOIN proceso_competencia pc USING (id_portafolio)
-                WHERE pc.n_oferentes BETWEEN 3 AND 6 LIMIT 3""").df().to_string(index=False))
-            print("\n  Nodos por tipo:")
-            print(c.execute("""
-                SELECT tipo_nodo, count(*) AS nodos,
-                       count(*) FILTER (WHERE cruza_rues) AS con_rues
-                FROM nodo_2025 GROUP BY 1 ORDER BY 2 DESC""").df().to_string(index=False))
-            print("\n  Vinculos por tipo:")
-            print(c.execute("""
-                SELECT tipo_vinculo, count(*) AS aristas
-                FROM vinculo_2025 GROUP BY 1 ORDER BY 2 DESC""").df().to_string(index=False))
+            if a.detalle:
+                print("\n[5] Ejemplos")
+                print("\n  Un contrato con su proceso y su competencia:")
+                print(c.execute("""
+                    SELECT c.id_contrato, c.id_portafolio, p.id_del_proceso,
+                           c.tipo_de_contrato, pc.n_oferentes
+                    FROM contrato_2025 c JOIN proceso_2025 p USING (id_portafolio)
+                    JOIN proceso_competencia pc USING (id_portafolio)
+                    WHERE pc.n_oferentes BETWEEN 3 AND 6 LIMIT 3""").df().to_string(index=False))
+                print("\n  Nodos por tipo:")
+                print(c.execute("""
+                    SELECT tipo_nodo, count(*) AS nodos,
+                           count(*) FILTER (WHERE cruza_rues) AS con_rues
+                    FROM nodo_2025 GROUP BY 1 ORDER BY 2 DESC""").df().to_string(index=False))
+                print("\n  Vinculos por tipo:")
+                print(c.execute("""
+                    SELECT tipo_vinculo, count(*) AS aristas
+                    FROM vinculo_2025 GROUP BY 1 ORDER BY 2 DESC""").df().to_string(index=False))
 
     # --- 5. invariantes de las cifras publicadas --------------------------
     #: Las seis discrepancias que la sesión 1 reconcilió a mano vuelven aquí

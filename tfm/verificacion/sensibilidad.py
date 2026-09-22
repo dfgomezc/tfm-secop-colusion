@@ -46,6 +46,21 @@ from tfm import rutas                                        # noqa: E402
 from tfm.grafo import triangulos as tri                      # noqa: E402
 
 
+
+def _clave_actor(df):
+    """El nombre de la columna que identifica al actor en un marco de datos.
+
+    Las tablas de explicabilidad del conjunto distribuido traen `seudonimo` y
+    no `id_nodo`, porque el identificador real no se publica. Las dos designan
+    al mismo actor y sirven igual para agrupar.
+    """
+    for c in ("id_nodo", "seudonimo"):
+        if c in df.columns:
+            return c
+    raise SystemExit(
+        "las tablas de explicabilidad no traen columna de actor; "
+        "ejecuta antes `python -m tfm.modelos.explicabilidad --comparar`")
+
 def _tablas(nombre):
     destino = rutas.outputs_de("tablas")
     os.makedirs(destino, exist_ok=True)
@@ -116,11 +131,12 @@ def atribucion(modelos=("mlp", "rf")):
         #: apartado 5.4: sobre el valor absoluto de las atribuciones, porque
         #: una aportación negativa también explica.
         var["abs"] = var["atribucion"].abs()
-        total = var.groupby("id_nodo")["abs"].sum()
-        entorno = var[var["bloque"] != "propio"].groupby("id_nodo")["abs"].sum()
+        clave = _clave_actor(var)
+        total = var.groupby(clave)["abs"].sum()
+        entorno = var[var["bloque"] != "propio"].groupby(clave)["abs"].sum()
         pct = (100 * entorno / total).rename("pct_entorno")
 
-        d = bloq[["id_nodo", "puntuacion"]].merge(pct, on="id_nodo")
+        d = bloq[[clave, "puntuacion"]].merge(pct, on=clave)
         #: `rank` antes de `qcut` porque las puntuaciones empatan en la cola
         #: alta y sin él los deciles quedan desiguales.
         d["decil"] = pd.qcut(d["puntuacion"].rank(method="first"), 10,
