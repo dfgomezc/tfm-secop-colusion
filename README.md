@@ -71,25 +71,36 @@ directorios y qué etapas pueden ejecutarse con los datos disponibles.
 
 ## Los datos
 
-### `datos/`, versionado, 21 MB
+### `datos/`, versionado, 52 MB
 
 Es el insumo del análisis y viaja en el repositorio. Los actores están
 identificados por seudónimo, nunca por documento de identidad ni razón social.
+Su estructura reproduce la de `OUTPUTS/`, de modo que basta apuntarle la
+variable de entorno para trabajar con él:
+
+```bash
+export TFM_OUTPUTS=datos
+```
 
 | Carpeta | Contenido |
 |:---|:---|
-| `datos/red/features_nodo/` | Las 22 variables de red por actor y la etiqueta, 82.984 filas. Es la entrada directa de los modelos |
-| `datos/red/banderas_rojas.csv` | Las cuatro banderas estructurales por actor |
-| `datos/red/topologia_*.csv` | Descriptores del grafo bipartito y de la red tripartita |
-| `datos/red/ego_redes_triangulos.csv` | Estadísticas estructurales de las dos ego-redes de mayor concentración |
-| `datos/grafo/nodo_2025/` | Los 139.548 actores del universo con sus atributos no identificativos |
-| `datos/grafo/vinculo_2025/` | Las 2.914.940 aristas del grafo, con su tipo y peso |
+| `datos/gold/` | El modelo dimensional acotado al análisis: contratos y procesos de 2025, actores, entidades, aristas del grafo y parámetros de la resolución de identidad |
+| `datos/graph_sna/` | Las 22 variables de red por actor y la etiqueta, 82.984 filas; las cuatro banderas estructurales; y los descriptores del grafo bipartito y de la red tripartita |
+| `datos/modelos/` | Predicciones, particiones, rejillas de hiperparámetros, atribuciones de Shapley y puntos de control de las dos redes con paso de mensajes |
 | `datos/curvas/` | Series de las curvas ROC, precisión-exhaustividad y lift |
 | `datos/tablas/` | Las 28 tablas publicadas, en CSV |
+| `datos/figuras/` | Las 17 figuras del estudio, en PDF vectorial |
 
-Con este conjunto se reentrenan los nueve modelos, se recalculan todas las
-métricas, se recuentan los triángulos de riesgo y se redibujan las figuras de
-red y de resultados.
+**Qué se reproduce con él.** Un clon del repositorio, sin descargar nada más,
+regenera las 17 figuras y recalcula 13 de las tablas publicadas obteniendo
+ficheros idénticos byte a byte a los distribuidos. Las catorce etapas de
+análisis, verificación y figuras se ejecutan sin error.
+
+Dos etapas necesitan más que este conjunto. `bronze` y `gold` reconstruyen el
+modelo dimensional desde los JSONL de origen, que no viajan. Y
+`tfm.modelos.tablas_seudonimizadas` necesita la razón social, porque además de
+sus tres tablas produce la clave que asocia cada seudónimo con el actor real;
+esas tres tablas ya están publicadas en `datos/tablas/`.
 
 ### `INPUT/`, no versionado
 
@@ -102,10 +113,10 @@ nueve conjuntos y su procedencia.
 
 ### `OUTPUTS/`, no versionado
 
-El modelo dimensional completo y los artefactos intermedios de las ejecuciones:
-1,9 GB de parquet más las rejillas, predicciones y puntos de control de los
-modelos. Se reconstruye con el código. Los artefactos publicados que sí caben
-en el repositorio están duplicados en `datos/`.
+El modelo dimensional completo: 1,9 GB de parquet con todas las tablas de
+hechos, incluidas las que el análisis no usa. Se reconstruye con el código a
+partir de `INPUT/`. Lo que de él necesita el análisis está en `datos/`, ya
+seudonimizado.
 
 ### Protección de datos
 
@@ -173,6 +184,20 @@ python -m tfm.tablas_markdown           # docs/tablas/*.md desde los CSV
 
 Las diecisiete figuras del estudio y las 28 tablas se producen con estas
 órdenes. Ninguna está dibujada ni transcrita a mano.
+
+Para comprobarlo sobre un clon recién hecho:
+
+```bash
+export TFM_OUTPUTS=datos
+python comprobar_entorno.py          # qué etapas pueden correr
+python -m tfm.verificacion.invariantes
+python -m tfm.modelos.brazo_clasico  # escribe en salidas/modelos/
+diff salidas/modelos/tabla_5_21_siete_ordenamientos.csv \
+     datos/tablas/tabla_5_21_siete_ordenamientos.csv
+```
+
+El `diff` no devuelve nada: la tabla recalculada y la publicada son el mismo
+fichero.
 
 ## Estructura
 
