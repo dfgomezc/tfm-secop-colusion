@@ -78,17 +78,17 @@ CIIU_FINANCIERO = ("64", "65", "66")
 #: registro mercantil y por tanto no tienen CIIU. Para esos casos se recurre al
 #: patron de la razon social, que en el sector es muy estable.
 SEMILLA = 42
-PATRON_FINANCIERO = ("SEGURO|ASEGURADORA|FIDUCIARIA|BANCO|"
-                     "COMPANIA DE SEGUROS|CORREDORES DE SEGUROS")
+#: El criterio de exclusión de banca y seguros vive en `tfm.datos`, para que
+#: las tres etapas que lo aplican no puedan divergir.
+from tfm.datos import condicion_banca_seguros    # noqa: E402
 
 
 def cargar_tripartita(con):
-    fin = " OR ".join(f"substr(ciiu1, 1, 2) = '{d}'" for d in CIIU_FINANCIERO)
+    criterio = condicion_banca_seguros(con, f"{PQ}/nodo_2025/*.parquet")
     con.execute(f"""
         CREATE OR REPLACE TEMP VIEW excluidos AS
         SELECT id_nodo FROM '{PQ}/nodo_2025/*.parquet'
-        WHERE (ciiu1 IS NOT NULL AND ({fin}))
-           OR regexp_matches(upper(nombre), '{PATRON_FINANCIERO}');
+        WHERE {criterio};
 
         CREATE OR REPLACE TEMP VIEW adj AS
         SELECT origen AS entidad, destino AS proveedor

@@ -39,19 +39,21 @@ sobre `v` y `exc` sus otras tres banderas.
 #: constitución de garantías y no a una relación de competencia, de modo que
 #: incluirlas conecta entre sí a proveedores que no concurren a los mismos
 #: procesos.
-CIIU_FINANCIERO = ("64", "65", "66")
-PATRON_FINANCIERO = ("SEGURO|ASEGURADOR|FIDUCIARI|BANCO|BANCARI|"
-                     "CORREDOR DE SEGURO|CAPITALIZADORA")
+#: Se reexportan para las etapas que declaran el criterio en su salida.
+from tfm.datos import (CIIU_FINANCIERO, PATRON_FINANCIERO,  # noqa: E402,F401
+                       condicion_banca_seguros)
 
 
-def sql(pq):
-    """El SQL que deja creadas las vistas, sobre el modelo dimensional `pq`."""
-    fin = " OR ".join(f"substr(ciiu1, 1, 2) = '{d}'" for d in CIIU_FINANCIERO)
+def sql(pq, criterio="es_banca_seguros"):
+    """El SQL que deja creadas las vistas, sobre el modelo dimensional `pq`.
+
+    `criterio` es la condición que identifica a banca y seguros, que resuelve
+    `tfm.datos.condicion_banca_seguros` según las columnas disponibles.
+    """
     return f"""
         CREATE OR REPLACE TEMP VIEW exc AS
           SELECT id_nodo FROM '{pq}/nodo_2025/*.parquet'
-          WHERE (ciiu1 IS NOT NULL AND ({fin}))
-             OR regexp_matches(upper(nombre), '{PATRON_FINANCIERO}');
+          WHERE {criterio};
 
         CREATE OR REPLACE TEMP VIEW v AS
           SELECT * FROM '{pq}/vinculo_2025/*.parquet';
@@ -80,7 +82,8 @@ def sql(pq):
 
 
 def preparar(con, pq):
-    con.execute(sql(pq))
+    con.execute(sql(pq, condicion_banca_seguros(
+        con, f"{pq}/nodo_2025/*.parquet")))
 
 
 def actores(con, pq=None):

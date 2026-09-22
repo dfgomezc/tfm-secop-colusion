@@ -97,3 +97,40 @@ def montadas(con):
     return [r[0] for r in con.execute(
         "SELECT table_name FROM information_schema.tables "
         "ORDER BY table_name").fetchall()]
+
+#: Exclusión de banca y seguros del análisis relacional. Su presencia en un
+#: contrato responde a la constitución de garantías y no a una relación de
+#: competencia, de modo que incluirlas conecta entre sí a proveedores que no
+#: concurren a los mismos procesos.
+#:
+#: El criterio es el código CIIU de actividad financiera. La razón social actúa
+#: de respaldo para los actores sin CIIU declarado, que son mayoría entre las
+#: uniones temporales porque no cruzan con el registro mercantil.
+#:
+#: El patrón de la razón social pide la palabra completa. Una variante más
+#: amplia, con las raíces `ASEGURADOR` y `BANCARI`, excluía además a empresas
+#: de vigilancia privada cuya denominación social incluye «bancaria» porque
+#: custodian sucursales, y a dos gremios del sector. Ninguna es banco ni
+#: aseguradora, y el recuento de triángulos es el mismo con las dos, de modo
+#: que se conserva la que no produce exclusiones falsas.
+CIIU_FINANCIERO = ("64", "65", "66")
+PATRON_FINANCIERO = ("SEGURO|ASEGURADORA|FIDUCIARIA|BANCO|"
+                     "COMPANIA DE SEGUROS|CORREDORES DE SEGUROS")
+
+
+def condicion_banca_seguros(con, patron_nodos):
+    """El SQL que identifica a los actores de banca y seguros.
+
+    El conjunto de datos publicable trae el criterio ya materializado en la
+    columna `es_banca_seguros`, porque depende de la razón social y esa columna
+    no se publica. Cuando la columna está, se usa; cuando no, se evalúa sobre
+    el CIIU y el nombre. Las dos vías seleccionan el mismo conjunto.
+    """
+    columnas = con.execute(
+        f"DESCRIBE SELECT * FROM '{patron_nodos}'").df()["column_name"].tolist()
+    if "es_banca_seguros" in columnas:
+        return "es_banca_seguros"
+    financiero = " OR ".join(
+        f"substr(ciiu1, 1, 2) = '{d}'" for d in CIIU_FINANCIERO)
+    return (f"(ciiu1 IS NOT NULL AND ({financiero})) "
+            f"OR regexp_matches(upper(nombre), '{PATRON_FINANCIERO}')")
