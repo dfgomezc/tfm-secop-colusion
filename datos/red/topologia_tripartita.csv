@@ -1,0 +1,14 @@
+magnitud,valor
+Nodos de la red tripartita,15410
+Enlaces de la red tripartita,31439
+Componentes conexos,23
+Nodos de la componente gigante,15312
+Enlaces de la componente gigante,31357
+Fracción de la red en la componente gigante,99.36
+Grado máximo,657
+Grado medio,1.73
+Porcentaje de enlaces en el decil superior de grado,40.6
+Triángulos de riesgo,1978
+Entidades con triángulo,539
+Uniones temporales con triángulo,1626
+Socios con triángulo,1239

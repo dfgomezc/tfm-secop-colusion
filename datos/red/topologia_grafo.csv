@@ -1,0 +1,12 @@
+metrica,valor
+Nodos totales,86856.0
+Nodos entidad,3872.0
+Nodos proveedor,82984.0
+Aristas únicas,143360.0
+Densidad,3.801e-05
+Componentes conexas,235.0
+Componente gigante,86242.0
+Comunidades Louvain,295.0
+Modularidad,0.8108
+Grado medio,3.3
+Grado máximo,1093.0
