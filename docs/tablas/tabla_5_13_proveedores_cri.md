@@ -1,0 +1,14 @@
+# Proveedores con mayor puntuación en el índice de riesgo
+
+Fuente: `OUTPUTS/tablas/tabla_5_13_proveedores_cri.csv`, generado por el análisis.
+
+| seudonimo | familia | depto | cri_score | n_contratos | n_entidades | pct_single | pct_directa |
+|:---|:---|:---|---:|---:|---:|---:|---:|
+| P-06669 | Corporación de economía mixta |  | 0,8451219512195122 | 123 | 2 | 1,0 | 0,991869918699187 |
+| P-39299 | Empresa municipal de desarrollo | ANTIOQUIA | 0,842156862745098 | 51 | 2 | 1,0 | 1,0 |
+| P-35747 | Empresa municipal de desarrollo |  | 0,8404761904761905 | 63 | 3 | 1,0 | 1,0 |
+| P-19564 | Empresa municipal de desarrollo |  | 0,8336521739130435 | 46 | 1 | 1,0 | 1,0 |
+| P-19942 | Fondo de desarrollo |  | 0,8318181818181819 | 55 | 5 | 1,0 | 1,0 |
+| P-11090 | Empresa municipal de desarrollo |  | 0,8300000000000001 | 60 | 6 | 1,0 | 1,0 |
+| P-16392 | Empresa municipal de desarrollo | ANTIOQUIA | 0,8277777777777778 | 81 | 9 | 1,0 | 1,0 |
+| P-15471 | Empresa municipal de desarrollo |  | 0,8261194029850747 | 67 | 8 | 1,0 | 1,0 |

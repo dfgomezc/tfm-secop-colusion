@@ -1,0 +1,13 @@
+# Precisión y lift según el tamaño de la lista corta
+
+Fuente: `OUTPUTS/tablas/tabla_5_25_precision_k.csv`, generado por el análisis.
+
+| Ordenamiento | P@50 | Lift@50 | P@100 | Lift@100 | P@200 | Lift@200 | P@500 | Lift@500 | P@1000 | Lift@1000 |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| SNA — Regresión Logística | 0,7 | 6,93 | 0,58 | 5,74 | 0,455 | 4,5 | 0,306 | 3,03 | 0,235 | 2,33 |
+| ML — Random Forest | 0,9 | 8,91 | 0,82 | 8,11 | 0,745 | 7,37 | 0,638 | 6,31 | 0,585 | 5,79 |
+| ML — Gradient Boosting | 0,88 | 8,71 | 0,79 | 7,82 | 0,78 | 7,72 | 0,68 | 6,73 | 0,566 | 5,6 |
+| SGC — propagación + MLP | 0,96 | 9,5 | 0,91 | 9,0 | 0,875 | 8,66 | 0,806 | 7,98 | 0,698 | 6,91 |
+| Clásico — Banderas rojas | 0,04 | 0,4 | 0,02 | 0,2 | 0,025 | 0,25 | 0,026 | 0,26 | 0,031 | 0,31 |
+| Clásico — PageRank puro | 0,54 | 5,34 | 0,46 | 4,55 | 0,385 | 3,81 | 0,308 | 3,05 | 0,241 | 2,38 |
+| Trivial — Número de contratos | 0,54 | 5,34 | 0,56 | 5,54 | 0,44 | 4,35 | 0,324 | 3,21 | 0,246 | 2,43 |

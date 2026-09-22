@@ -1,0 +1,14 @@
+# Entidades con mayor número de triángulos de riesgo
+
+Fuente: `OUTPUTS/tablas/tabla_5_14_entidades_triangulos.csv`, generado por el análisis.
+
+| seudonimo | familia | depto | triangulos | uts | socios |
+|:---|:---|:---|---:|---:|---:|
+| E-3569 | Territorial · Servicio Público | ARAUCA | 73 | 57 | 20 |
+| E-2801 | Nacional · Transporte | DISTRITO CAPITAL DE BOGOTA | 73 | 57 | 39 |
+| E-2422 | Territorial · Servicio Público | ARAUCA | 61 | 45 | 20 |
+| E-1077 | Nacional · No Aplica/No Pertenece | LA GUAJIRA | 44 | 32 | 38 |
+| E-3467 | Territorial · No Aplica/No Pertenece | CAQUETA | 34 | 26 | 14 |
+| E-0304 | Territorial · Servicio Público | AMAZONAS | 31 | 18 | 14 |
+| E-0099 | Territorial · No Aplica/No Pertenece | NORTE DE SANTANDER | 28 | 21 | 23 |
+| E-1296 | Territorial · Servicio Público | ARAUCA | 27 | 15 | 12 |

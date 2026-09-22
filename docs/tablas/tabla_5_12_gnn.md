@@ -1,0 +1,10 @@
+# Rejilla de hiperparámetros del perceptrón multicapa sobre variables propagadas
+
+Fuente: `OUTPUTS/tablas/tabla_5_12_gnn.csv`, generado por el análisis.
+
+| alpha | hidden_layer_sizes | CV AUC | sigma |
+|---:|:---|---:|---:|
+| 0,001 | (128, 64) | 0,9653 | 0,002 |
+| 0,0001 | (128, 64) | 0,9636 | 0,001 |
+| 0,001 | (64,) | 0,9555 | 0,004 |
+| 0,0001 | (64,) | 0,9551 | 0,004 |

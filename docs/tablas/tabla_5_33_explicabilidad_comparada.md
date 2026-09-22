@@ -1,0 +1,8 @@
+# Las dos explicaciones, sobre la misma partición y las mismas variables
+
+Fuente: `OUTPUTS/tablas/tabla_5_33_explicabilidad_comparada.csv`, generado por el análisis.
+
+| Modelo | Método | Valor base | Error de reconstrucción | Atribución al propio actor (%) | Atribución al entorno (%) | Alertas donde manda el entorno |
+|:---|:---|---:|---:|---:|---:|---:|
+| SGC — propagación + MLP | por núcleos | 0,1554 | 5,6e-16 | 48,62 | 51,38 | 61 |
+| ML — Random Forest sobre variables propagadas | exacto (árboles) | 0,1010 | 2,7e-15 | 44,41 | 55,59 | 62 |

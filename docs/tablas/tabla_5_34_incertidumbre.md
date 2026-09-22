@@ -1,0 +1,13 @@
+# Intervalo de confianza al 95 % del AUC-ROC, por remuestreo
+
+Fuente: `OUTPUTS/tablas/tabla_5_34_incertidumbre.csv`, generado por el análisis.
+
+| Ordenamiento | AUC-ROC | IC 95% inferior | IC 95% superior | Amplitud |
+|:---|---:|---:|---:|---:|
+| ML — Random Forest sobre variables propagadas | 0,942 | 0,9387 | 0,9452 | 0,0064 |
+| GNN — GraphSAGE con muestreo | 0,9355 | 0,9321 | 0,9388 | 0,0066 |
+| SGC — propagación + MLP | 0,9328 | 0,9293 | 0,9359 | 0,0066 |
+| GNN — GCN de dos capas | 0,923 | 0,919 | 0,927 | 0,0081 |
+| ML — Random Forest | 0,9051 | 0,9007 | 0,9092 | 0,0085 |
+| ML — Gradient Boosting | 0,9016 | 0,897 | 0,9059 | 0,0089 |
+| SNA — Regresión Logística | 0,8076 | 0,8015 | 0,8131 | 0,0116 |

@@ -1,0 +1,15 @@
+# Los nueve ordenamientos evaluados sobre el mismo conjunto de prueba
+
+Fuente: `OUTPUTS/tablas/tabla_5_29_nueve_ordenamientos.csv`, generado por el análisis.
+
+| Ordenamiento | Tipo | AUC-ROC | PR-AUC | F1 | Precision@200 | Recall@200 |
+|:---|:---|---:|---:|---:|---:|---:|
+| Clásico - PageRank puro | clásico | 0,7785 | 0,219 | 0,2089 | 0,385 | 0,0306 |
+| Clásico - Banderas rojas estructurales | clásico | 0,4507 | 0,097 | 0,0535 | 0,025 | 0,002 |
+| Trivial - Número de contratos | clásico | 0,8015 | 0,2409 | 0,2171 | 0,45 | 0,0354 |
+| SNA - Regresión Logística | entrenado | 0,8076 | 0,2415 | 0,2971 | 0,455 | 0,0362 |
+| ML - Random Forest | entrenado | 0,9051 | 0,4767 | 0,1835 | 0,745 | 0,0592 |
+| ML - Gradient Boosting | entrenado | 0,9016 | 0,474 | 0,1947 | 0,78 | 0,062 |
+| SGC - propagación + MLP | entrenado | 0,9328 | 0,5862 | 0,4433 | 0,875 | 0,0696 |
+| GNN — GCN de 2 capas | entrenado | 0,923 | 0,5417 | 0,5052 | 0,76 | 0,0604 |
+| GNN — GraphSAGE con muestreo | entrenado | 0,9355 | 0,5924 | 0,5176 | 0,87 | 0,0692 |

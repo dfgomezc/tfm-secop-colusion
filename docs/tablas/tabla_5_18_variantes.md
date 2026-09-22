@@ -1,0 +1,18 @@
+# Comparativa bajo las tres variantes de control
+
+Fuente: `OUTPUTS/tablas/tabla_5_18_variantes.csv`, generado por el análisis.
+
+| Variante | Modelo | AUC-ROC | PR-AUC | F1 | Precision@200 | Recall@200 |
+|:---|:---|---:|---:|---:|---:|---:|
+| V0 | SNA - Regresión Logística | 0,8223 | 0,268 | 0,3493 | 0,485 | 0,0386 |
+| V0 | ML - Random Forest | 0,9498 | 0,6311 | 0,4919 | 0,86 | 0,0684 |
+| V0 | ML - Gradient Boosting | 0,9433 | 0,603 | 0,4113 | 0,905 | 0,0719 |
+| V0 | SGC - propagación + MLP | 0,9695 | 0,7558 | 0,6491 | 0,935 | 0,0743 |
+| V1 | SNA - Regresión Logística | 0,8076 | 0,2415 | 0,2971 | 0,455 | 0,0362 |
+| V1 | ML - Random Forest | 0,9051 | 0,4767 | 0,1835 | 0,745 | 0,0592 |
+| V1 | ML - Gradient Boosting | 0,9016 | 0,474 | 0,1947 | 0,78 | 0,062 |
+| V1 | SGC - propagación + MLP | 0,9328 | 0,5862 | 0,4433 | 0,875 | 0,0696 |
+| V2 | SNA - Regresión Logística | 0,6127 | 0,1492 | 0,0 | 0,305 | 0,0245 |
+| V2 | ML - Random Forest | 0,7106 | 0,1879 | 0,0032 | 0,235 | 0,0189 |
+| V2 | ML - Gradient Boosting | 0,7131 | 0,1897 | 0,0 | 0,255 | 0,0205 |
+| V2 | SGC - propagación + MLP | 0,706 | 0,1903 | 0,0 | 0,32 | 0,0257 |

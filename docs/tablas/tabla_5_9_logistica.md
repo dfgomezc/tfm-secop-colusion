@@ -1,0 +1,14 @@
+# Rejilla de hiperparámetros de la regresión logística
+
+Fuente: `OUTPUTS/tablas/tabla_5_9_logistica.csv`, generado por el análisis.
+
+| C | class_weight | CV AUC | sigma |
+|---:|:---|---:|---:|
+| 0,1 | balanced | 0,8234 | 0,003 |
+| 0,01 | balanced | 0,8207 | 0,003 |
+| 0,1 |  | 0,8205 | 0,003 |
+| 10,0 |  | 0,8197 | 0,003 |
+| 0,01 |  | 0,8195 | 0,003 |
+| 1,0 | balanced | 0,8174 | 0,003 |
+| 10,0 | balanced | 0,8101 | 0,003 |
+| 1,0 |  | 0,8089 | 0,003 |

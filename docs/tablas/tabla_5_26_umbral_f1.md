@@ -1,0 +1,12 @@
+# F1 al umbral convencional y al umbral que lo maximiza
+
+Fuente: `OUTPUTS/tablas/tabla_5_26_umbral_f1.csv`, generado por el análisis.
+
+| Modelo | F1 al umbral 0,5 | Umbral óptimo | F1 al umbral óptimo | Señalados al óptimo |
+|:---|---:|---:|---:|:---|
+| SNA — Regresión Logística | 0,2971 | 0,4635 | 0,3803 | 10138 |
+| ML — Random Forest | 0,1835 | 0,2529 | 0,489 | 3459 |
+| ML — Gradient Boosting | 0,1947 | 0,2187 | 0,4798 | 4895 |
+| SGC — propagación + MLP | 0,4433 | 0,2872 | 0,5643 | 4083 |
+| Clásico — Banderas rojas | 0,0188 | 0,0 | 0,1836 | 24896 |
+| Clásico — PageRank puro | 0,0 | 0,0 | 0,3435 | 10825 |

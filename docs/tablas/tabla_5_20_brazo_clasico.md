@@ -1,0 +1,9 @@
+# Los tres ordenamientos que no entrenan nada
+
+Fuente: `OUTPUTS/tablas/tabla_5_20_brazo_clasico.csv`, generado por el análisis.
+
+| Ordenamiento | Tipo | AUC-ROC | PR-AUC | F1 | Precision@200 | Recall@200 |
+|:---|:---|---:|---:|---:|---:|---:|
+| Clásico - PageRank puro | clásico | 0,7785 | 0,219 | 0,2089 | 0,385 | 0,0306 |
+| Clásico - Banderas rojas estructurales | clásico | 0,4507 | 0,097 | 0,0535 | 0,025 | 0,002 |
+| Trivial - Número de contratos | clásico | 0,8015 | 0,2409 | 0,2171 | 0,45 | 0,0354 |

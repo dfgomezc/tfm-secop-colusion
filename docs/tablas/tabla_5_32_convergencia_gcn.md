@@ -1,0 +1,12 @@
+# Trayectoria de validación de la GCN en los hitos del ajuste
+
+Fuente: `OUTPUTS/tablas/tabla_5_32_convergencia_gcn.csv`, generado por el análisis.
+
+| Época | AUC-ROC de validación | Hito |
+|:---|---:|:---|
+| 1200 | 0,9000 | final de la rejilla |
+| 2000 | 0,9110 | ajuste largo |
+| 4000 | 0,9165 | ajuste largo |
+| 6000 | 0,9213 | ajuste largo |
+| 7150 | 0,9229 | máximo de validación |
+| 7750 | 0,9212 | parada temprana |

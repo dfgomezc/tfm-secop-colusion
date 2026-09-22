@@ -1,0 +1,11 @@
+# La red convolucional de grafos y el modelo relacional que la simplifica
+
+Fuente: `OUTPUTS/tablas/tabla_5_31_gcn_vs_sgc.csv`, generado por el análisis.
+
+| Métrica | GCN de dos capas | SGC - propagación + MLP | Diferencia |
+|:---|---:|---:|---:|
+| AUC-ROC | 0,9230 | 0,9328 | 0,0098 |
+| PR-AUC | 0,5417 | 0,5862 | 0,0445 |
+| F1 | 0,5052 | 0,4433 | -0,0619 |
+| Precision@200 | 0,7600 | 0,8750 | 0,1150 |
+| Recall@200 | 0,0604 | 0,0696 | 0,0092 |

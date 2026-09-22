@@ -1,0 +1,10 @@
+# Rejilla de hiperparámetros del gradient boosting
+
+Fuente: `OUTPUTS/tablas/tabla_5_11_gradient_boosting.csv`, generado por el análisis.
+
+| learning_rate | max_depth | n_estimators | CV AUC | sigma |
+|---:|---:|---:|---:|---:|
+| 0,1 | 4 | 100 | 0,9421 | 0,0 |
+| 0,05 | 4 | 100 | 0,9382 | 0,0 |
+| 0,1 | 3 | 100 | 0,938 | 0,0 |
+| 0,05 | 3 | 100 | 0,9309 | 0,0 |
