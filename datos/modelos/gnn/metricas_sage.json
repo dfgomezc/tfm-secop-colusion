@@ -1,0 +1,15 @@
+{
+  "modelo": "GNN — GraphSAGE con muestreo",
+  "oculta": 32,
+  "lr": 0.01,
+  "epocas_recorridas": 1800,
+  "mejor_epoca": 1200,
+  "auc_validacion": 0.934129,
+  "combinaciones_exploradas": 4,
+  "abanico": 25,
+  "AUC-ROC": 0.9355,
+  "PR-AUC": 0.5924,
+  "F1": 0.5176,
+  "Precision@200": 0.87,
+  "Recall@200": 0.0692
+}

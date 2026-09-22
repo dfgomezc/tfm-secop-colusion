@@ -1,0 +1,5 @@
+combo,CV AUC,sigma
+"[('learning_rate', 0.05), ('max_depth', 3), ('n_estimators', 100)]",0.6847366823090306,0.005425237180133428
+"[('learning_rate', 0.05), ('max_depth', 4), ('n_estimators', 100)]",0.6947525616798677,0.004352490256550711
+"[('learning_rate', 0.1), ('max_depth', 3), ('n_estimators', 100)]",0.6953640230035418,0.004200930505990157
+"[('learning_rate', 0.1), ('max_depth', 4), ('n_estimators', 100)]",0.703878115770023,0.0023657283595784244

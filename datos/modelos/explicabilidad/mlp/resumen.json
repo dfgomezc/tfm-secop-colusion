@@ -1,0 +1,24 @@
+{
+  "modelo": "SGC — propagación + MLP",
+  "metodo": "Shapley por núcleos, tratando al modelo como caja negra",
+  "alertas_explicadas": 100,
+  "configuracion": {
+    "alpha": "0.0001",
+    "hidden_layer_sizes": "(128, 64)"
+  },
+  "valor_base": 0.155369,
+  "control_del_modelo": {
+    "AUC-ROC": 0.932799,
+    "Precision@200": 0.875,
+    "AUC-ROC publicada": 0.932799,
+    "Precision@200 publicada": 0.875,
+    "coincidencia top-200": 200
+  },
+  "error_maximo_reconstruccion": 5.551115123125783e-16,
+  "reparto_medio_propio": 48.62,
+  "reparto_medio_entorno": 51.38,
+  "alertas_con_entorno_dominante": 61,
+  "positivos_en_el_top": 91,
+  "alertas_con_bandera_roja": 5,
+  "vecinos_distintos_en_los_subgrafos": 193
+}

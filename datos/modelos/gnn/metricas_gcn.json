@@ -1,0 +1,15 @@
+{
+  "modelo": "GNN — GCN de 2 capas",
+  "oculta": 32,
+  "lr": 0.01,
+  "epocas_recorridas": 7750,
+  "mejor_epoca": 7150,
+  "auc_validacion": 0.922934,
+  "combinaciones_exploradas": 4,
+  "abanico": null,
+  "AUC-ROC": 0.923,
+  "PR-AUC": 0.5417,
+  "F1": 0.5052,
+  "Precision@200": 0.76,
+  "Recall@200": 0.0604
+}

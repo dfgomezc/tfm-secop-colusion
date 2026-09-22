@@ -1,0 +1,25 @@
+{
+  "modelo": "ML — Random Forest sobre variables propagadas",
+  "metodo": "Shapley exacto para conjuntos de árboles",
+  "alertas_explicadas": 100,
+  "configuracion": {
+    "class_weight": "None",
+    "max_depth": "12",
+    "n_estimators": "200"
+  },
+  "valor_base": 0.100989,
+  "control_del_modelo": {
+    "AUC-ROC": 0.942364,
+    "Precision@200": 0.965,
+    "AUC-ROC publicada": 0.941967,
+    "Precision@200 publicada": 0.965,
+    "coincidencia top-200": 190
+  },
+  "error_maximo_reconstruccion": 2.6645352591003757e-15,
+  "reparto_medio_propio": 44.41,
+  "reparto_medio_entorno": 55.59,
+  "alertas_con_entorno_dominante": 62,
+  "positivos_en_el_top": 97,
+  "alertas_con_bandera_roja": 3,
+  "vecinos_distintos_en_los_subgrafos": 75
+}

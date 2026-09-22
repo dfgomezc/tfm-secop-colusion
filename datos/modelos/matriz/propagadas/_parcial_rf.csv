@@ -1,0 +1,9 @@
+combo,CV AUC,sigma
+"[('class_weight', None), ('max_depth', 8), ('n_estimators', 100)]",0.9255825004420424,0.0032601841340288
+"[('class_weight', 'balanced'), ('max_depth', 8), ('n_estimators', 100)]",0.9215486055283132,0.0027839745169918
+"[('class_weight', None), ('max_depth', 12), ('n_estimators', 100)]",0.9390101957932772,0.0025837790906692
+"[('class_weight', 'balanced'), ('max_depth', 12), ('n_estimators', 100)]",0.9315683012953554,0.0025171580041096
+"[('class_weight', None), ('max_depth', 8), ('n_estimators', 200)]",0.9264294943091328,0.0032536475600416
+"[('class_weight', 'balanced'), ('max_depth', 8), ('n_estimators', 200)]",0.9216891437354086,0.0025650944125248883
+"[('class_weight', None), ('max_depth', 12), ('n_estimators', 200)]",0.9392893572880484,0.0026559691463841546
+"[('class_weight', 'balanced'), ('max_depth', 12), ('n_estimators', 200)]",0.9317365815664376,0.002587089322270739

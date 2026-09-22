@@ -1,0 +1,2101 @@
+seudonimo,bloque,variable,atribucion
+P-06669,propio,strength,0.581828
+P-06669,propio,pagerank,-0.272781
+P-06669,propio,en_componente_gigante,0.0
+P-06669,propio,log_valor_total,0.0
+P-06669,propio,log_valor_medio,0.0
+P-06669,propio,n_procesos,0.470408
+P-06669,propio,n_cuentas_plataforma,0.0
+P-06669,un salto,strength,0.017164
+P-06669,un salto,pagerank,0.021254
+P-06669,un salto,en_componente_gigante,0.014844
+P-06669,un salto,log_valor_total,0.008212
+P-06669,un salto,log_valor_medio,0.0
+P-06669,un salto,n_procesos,0.028601
+P-06669,un salto,n_cuentas_plataforma,-0.039449
+P-06669,dos saltos,strength,0.0
+P-06669,dos saltos,pagerank,0.0
+P-06669,dos saltos,en_componente_gigante,0.0
+P-06669,dos saltos,log_valor_total,0.0
+P-06669,dos saltos,log_valor_medio,0.01455
+P-06669,dos saltos,n_procesos,0.0
+P-06669,dos saltos,n_cuentas_plataforma,0.0
+P-31085,propio,strength,0.433069
+P-31085,propio,pagerank,-0.073054
+P-31085,propio,en_componente_gigante,0.0
+P-31085,propio,log_valor_total,0.0
+P-31085,propio,log_valor_medio,0.0
+P-31085,propio,n_procesos,0.442735
+P-31085,propio,n_cuentas_plataforma,0.0
+P-31085,un salto,strength,-0.024038
+P-31085,un salto,pagerank,0.013877
+P-31085,un salto,en_componente_gigante,0.0
+P-31085,un salto,log_valor_total,-0.026394
+P-31085,un salto,log_valor_medio,0.0
+P-31085,un salto,n_procesos,0.0
+P-31085,un salto,n_cuentas_plataforma,0.0
+P-31085,dos saltos,strength,0.013469
+P-31085,dos saltos,pagerank,0.01907
+P-31085,dos saltos,en_componente_gigante,0.0
+P-31085,dos saltos,log_valor_total,0.0
+P-31085,dos saltos,log_valor_medio,0.031829
+P-31085,dos saltos,n_procesos,0.0
+P-31085,dos saltos,n_cuentas_plataforma,0.014068
+N-05689,propio,strength,0.027549
+N-05689,propio,pagerank,0.015916
+N-05689,propio,en_componente_gigante,0.0
+N-05689,propio,log_valor_total,0.012612
+N-05689,propio,log_valor_medio,0.012712
+N-05689,propio,n_procesos,0.018465
+N-05689,propio,n_cuentas_plataforma,0.0
+N-05689,un salto,strength,0.0
+N-05689,un salto,pagerank,0.075489
+N-05689,un salto,en_componente_gigante,0.0
+N-05689,un salto,log_valor_total,0.0
+N-05689,un salto,log_valor_medio,0.0
+N-05689,un salto,n_procesos,0.0
+N-05689,un salto,n_cuentas_plataforma,0.026479
+N-05689,dos saltos,strength,0.0
+N-05689,dos saltos,pagerank,0.0
+N-05689,dos saltos,en_componente_gigante,0.0
+N-05689,dos saltos,log_valor_total,0.027684
+N-05689,dos saltos,log_valor_medio,0.050206
+N-05689,dos saltos,n_procesos,0.0
+N-05689,dos saltos,n_cuentas_plataforma,0.577442
+N-26141,propio,strength,0.029501
+N-26141,propio,pagerank,0.026663
+N-26141,propio,en_componente_gigante,0.0
+N-26141,propio,log_valor_total,0.020543
+N-26141,propio,log_valor_medio,0.0
+N-26141,propio,n_procesos,0.024173
+N-26141,propio,n_cuentas_plataforma,0.0
+N-26141,un salto,strength,0.0
+N-26141,un salto,pagerank,0.071457
+N-26141,un salto,en_componente_gigante,0.0
+N-26141,un salto,log_valor_total,-0.056581
+N-26141,un salto,log_valor_medio,0.0
+N-26141,un salto,n_procesos,0.0
+N-26141,un salto,n_cuentas_plataforma,0.040557
+N-26141,dos saltos,strength,0.0
+N-26141,dos saltos,pagerank,0.0
+N-26141,dos saltos,en_componente_gigante,0.0
+N-26141,dos saltos,log_valor_total,0.03327
+N-26141,dos saltos,log_valor_medio,0.065683
+N-26141,dos saltos,n_procesos,0.0
+N-26141,dos saltos,n_cuentas_plataforma,0.589268
+P-49702,propio,strength,0.473449
+P-49702,propio,pagerank,-0.281652
+P-49702,propio,en_componente_gigante,0.0
+P-49702,propio,log_valor_total,0.049593
+P-49702,propio,log_valor_medio,0.0
+P-49702,propio,n_procesos,0.581589
+P-49702,propio,n_cuentas_plataforma,-0.055501
+P-49702,un salto,strength,0.0
+P-49702,un salto,pagerank,0.0
+P-49702,un salto,en_componente_gigante,0.039091
+P-49702,un salto,log_valor_total,-0.062371
+P-49702,un salto,log_valor_medio,0.049556
+P-49702,un salto,n_procesos,0.0
+P-49702,un salto,n_cuentas_plataforma,0.0
+P-49702,dos saltos,strength,0.019966
+P-49702,dos saltos,pagerank,0.0
+P-49702,dos saltos,en_componente_gigante,0.0
+P-49702,dos saltos,log_valor_total,0.0
+P-49702,dos saltos,log_valor_medio,0.030385
+P-49702,dos saltos,n_procesos,0.0
+P-49702,dos saltos,n_cuentas_plataforma,0.0
+P-39325,propio,strength,0.249992
+P-39325,propio,pagerank,-0.184773
+P-39325,propio,en_componente_gigante,0.0
+P-39325,propio,log_valor_total,0.043946
+P-39325,propio,log_valor_medio,0.223351
+P-39325,propio,n_procesos,0.241412
+P-39325,propio,n_cuentas_plataforma,0.0
+P-39325,un salto,strength,0.0
+P-39325,un salto,pagerank,0.043127
+P-39325,un salto,en_componente_gigante,0.0
+P-39325,un salto,log_valor_total,0.316371
+P-39325,un salto,log_valor_medio,0.0
+P-39325,un salto,n_procesos,0.0
+P-39325,un salto,n_cuentas_plataforma,0.0
+P-39325,dos saltos,strength,0.0
+P-39325,dos saltos,pagerank,0.0
+P-39325,dos saltos,en_componente_gigante,0.011108
+P-39325,dos saltos,log_valor_total,0.0
+P-39325,dos saltos,log_valor_medio,-0.135671
+P-39325,dos saltos,n_procesos,0.0
+P-39325,dos saltos,n_cuentas_plataforma,0.034916
+P-29287,propio,strength,0.168262
+P-29287,propio,pagerank,-0.08638
+P-29287,propio,en_componente_gigante,0.0
+P-29287,propio,log_valor_total,0.029007
+P-29287,propio,log_valor_medio,0.304755
+P-29287,propio,n_procesos,0.175675
+P-29287,propio,n_cuentas_plataforma,0.0
+P-29287,un salto,strength,0.0
+P-29287,un salto,pagerank,0.0
+P-29287,un salto,en_componente_gigante,0.0
+P-29287,un salto,log_valor_total,0.299109
+P-29287,un salto,log_valor_medio,0.025467
+P-29287,un salto,n_procesos,0.0
+P-29287,un salto,n_cuentas_plataforma,0.0
+P-29287,dos saltos,strength,0.0
+P-29287,dos saltos,pagerank,0.030742
+P-29287,dos saltos,en_componente_gigante,0.0
+P-29287,dos saltos,log_valor_total,0.0
+P-29287,dos saltos,log_valor_medio,-0.142209
+P-29287,dos saltos,n_procesos,0.0
+P-29287,dos saltos,n_cuentas_plataforma,0.038909
+P-38912,propio,strength,0.109543
+P-38912,propio,pagerank,0.0
+P-38912,propio,en_componente_gigante,0.0
+P-38912,propio,log_valor_total,0.0
+P-38912,propio,log_valor_medio,0.398864
+P-38912,propio,n_procesos,0.113576
+P-38912,propio,n_cuentas_plataforma,0.0
+P-38912,un salto,strength,0.0
+P-38912,un salto,pagerank,0.027217
+P-38912,un salto,en_componente_gigante,0.029633
+P-38912,un salto,log_valor_total,0.261514
+P-38912,un salto,log_valor_medio,0.018013
+P-38912,un salto,n_procesos,0.025321
+P-38912,un salto,n_cuentas_plataforma,0.0
+P-38912,dos saltos,strength,0.0
+P-38912,dos saltos,pagerank,0.0
+P-38912,dos saltos,en_componente_gigante,0.0
+P-38912,dos saltos,log_valor_total,0.0
+P-38912,dos saltos,log_valor_medio,-0.18614
+P-38912,dos saltos,n_procesos,0.0
+P-38912,dos saltos,n_cuentas_plataforma,0.045319
+N-12656,propio,strength,0.066458
+N-12656,propio,pagerank,0.022372
+N-12656,propio,en_componente_gigante,0.0
+N-12656,propio,log_valor_total,0.0
+N-12656,propio,log_valor_medio,0.307265
+N-12656,propio,n_procesos,0.042299
+N-12656,propio,n_cuentas_plataforma,0.0
+N-12656,un salto,strength,0.0
+N-12656,un salto,pagerank,0.0
+N-12656,un salto,en_componente_gigante,0.0
+N-12656,un salto,log_valor_total,0.400679
+N-12656,un salto,log_valor_medio,0.266437
+N-12656,un salto,n_procesos,0.0
+N-12656,un salto,n_cuentas_plataforma,0.0
+N-12656,dos saltos,strength,0.0
+N-12656,dos saltos,pagerank,0.065078
+N-12656,dos saltos,en_componente_gigante,0.0
+N-12656,dos saltos,log_valor_total,-0.15341
+N-12656,dos saltos,log_valor_medio,-0.206663
+N-12656,dos saltos,n_procesos,0.032337
+N-12656,dos saltos,n_cuentas_plataforma,0.0
+P-01131,propio,strength,0.066618
+P-01131,propio,pagerank,0.0
+P-01131,propio,en_componente_gigante,0.0
+P-01131,propio,log_valor_total,0.024538
+P-01131,propio,log_valor_medio,0.325156
+P-01131,propio,n_procesos,0.030345
+P-01131,propio,n_cuentas_plataforma,0.0
+P-01131,un salto,strength,0.0
+P-01131,un salto,pagerank,0.072913
+P-01131,un salto,en_componente_gigante,0.0
+P-01131,un salto,log_valor_total,0.395891
+P-01131,un salto,log_valor_medio,0.25956
+P-01131,un salto,n_procesos,0.0
+P-01131,un salto,n_cuentas_plataforma,0.0
+P-01131,dos saltos,strength,0.0
+P-01131,dos saltos,pagerank,0.0
+P-01131,dos saltos,en_componente_gigante,0.030642
+P-01131,dos saltos,log_valor_total,-0.119078
+P-01131,dos saltos,log_valor_medio,-0.243732
+P-01131,dos saltos,n_procesos,0.0
+P-01131,dos saltos,n_cuentas_plataforma,0.0
+P-26282,propio,strength,0.065164
+P-26282,propio,pagerank,0.0
+P-26282,propio,en_componente_gigante,0.01867
+P-26282,propio,log_valor_total,0.032549
+P-26282,propio,log_valor_medio,0.276945
+P-26282,propio,n_procesos,0.081048
+P-26282,propio,n_cuentas_plataforma,0.0
+P-26282,un salto,strength,0.0
+P-26282,un salto,pagerank,0.035148
+P-26282,un salto,en_componente_gigante,0.0
+P-26282,un salto,log_valor_total,0.391238
+P-26282,un salto,log_valor_medio,0.269981
+P-26282,un salto,n_procesos,0.0
+P-26282,un salto,n_cuentas_plataforma,0.0
+P-26282,dos saltos,strength,0.0
+P-26282,dos saltos,pagerank,0.0
+P-26282,dos saltos,en_componente_gigante,0.0
+P-26282,dos saltos,log_valor_total,-0.116803
+P-26282,dos saltos,log_valor_medio,-0.211086
+P-26282,dos saltos,n_procesos,0.0
+P-26282,dos saltos,n_cuentas_plataforma,0.0
+P-42768,propio,strength,0.017379
+P-42768,propio,pagerank,0.0
+P-42768,propio,en_componente_gigante,0.0
+P-42768,propio,log_valor_total,0.0
+P-42768,propio,log_valor_medio,0.344313
+P-42768,propio,n_procesos,0.055471
+P-42768,propio,n_cuentas_plataforma,0.0
+P-42768,un salto,strength,0.0
+P-42768,un salto,pagerank,0.058643
+P-42768,un salto,en_componente_gigante,0.0
+P-42768,un salto,log_valor_total,0.388497
+P-42768,un salto,log_valor_medio,0.255999
+P-42768,un salto,n_procesos,0.0
+P-42768,un salto,n_cuentas_plataforma,0.0
+P-42768,dos saltos,strength,0.04432
+P-42768,dos saltos,pagerank,0.0
+P-42768,dos saltos,en_componente_gigante,0.0
+P-42768,dos saltos,log_valor_total,-0.132696
+P-42768,dos saltos,log_valor_medio,-0.218114
+P-42768,dos saltos,n_procesos,0.029041
+P-42768,dos saltos,n_cuentas_plataforma,0.0
+N-32946,propio,strength,0.081626
+N-32946,propio,pagerank,0.019403
+N-32946,propio,en_componente_gigante,0.0
+N-32946,propio,log_valor_total,0.0
+N-32946,propio,log_valor_medio,0.3604
+N-32946,propio,n_procesos,0.029163
+N-32946,propio,n_cuentas_plataforma,0.0
+N-32946,un salto,strength,0.0
+N-32946,un salto,pagerank,0.0
+N-32946,un salto,en_componente_gigante,0.0
+N-32946,un salto,log_valor_total,0.331512
+N-32946,un salto,log_valor_medio,0.244126
+N-32946,un salto,n_procesos,0.0
+N-32946,un salto,n_cuentas_plataforma,0.060507
+N-32946,dos saltos,strength,0.0
+N-32946,dos saltos,pagerank,0.0
+N-32946,dos saltos,en_componente_gigante,0.046112
+N-32946,dos saltos,log_valor_total,-0.126903
+N-32946,dos saltos,log_valor_medio,-0.203095
+N-32946,dos saltos,n_procesos,0.0
+N-32946,dos saltos,n_cuentas_plataforma,0.0
+N-11957,propio,strength,0.067035
+N-11957,propio,pagerank,0.0
+N-11957,propio,en_componente_gigante,0.0
+N-11957,propio,log_valor_total,0.0
+N-11957,propio,log_valor_medio,0.336181
+N-11957,propio,n_procesos,0.0
+N-11957,propio,n_cuentas_plataforma,0.0
+N-11957,un salto,strength,0.0
+N-11957,un salto,pagerank,0.034126
+N-11957,un salto,en_componente_gigante,0.0
+N-11957,un salto,log_valor_total,0.363319
+N-11957,un salto,log_valor_medio,0.307776
+N-11957,un salto,n_procesos,0.0
+N-11957,un salto,n_cuentas_plataforma,0.0
+N-11957,dos saltos,strength,0.0
+N-11957,dos saltos,pagerank,0.030912
+N-11957,dos saltos,en_componente_gigante,0.031502
+N-11957,dos saltos,log_valor_total,-0.15415
+N-11957,dos saltos,log_valor_medio,-0.22323
+N-11957,dos saltos,n_procesos,0.049381
+N-11957,dos saltos,n_cuentas_plataforma,0.0
+N-04780,propio,strength,0.0
+N-04780,propio,pagerank,0.059735
+N-04780,propio,en_componente_gigante,0.0
+N-04780,propio,log_valor_total,0.0
+N-04780,propio,log_valor_medio,0.336972
+N-04780,propio,n_procesos,0.041384
+N-04780,propio,n_cuentas_plataforma,0.0
+N-04780,un salto,strength,0.0
+N-04780,un salto,pagerank,0.050638
+N-04780,un salto,en_componente_gigante,0.016417
+N-04780,un salto,log_valor_total,0.39992
+N-04780,un salto,log_valor_medio,0.261957
+N-04780,un salto,n_procesos,0.0
+N-04780,un salto,n_cuentas_plataforma,0.0
+N-04780,dos saltos,strength,0.0
+N-04780,dos saltos,pagerank,0.0257
+N-04780,dos saltos,en_componente_gigante,0.0
+N-04780,dos saltos,log_valor_total,-0.168554
+N-04780,dos saltos,log_valor_medio,-0.181317
+N-04780,dos saltos,n_procesos,0.0
+N-04780,dos saltos,n_cuentas_plataforma,0.0
+N-14089,propio,strength,0.037526
+N-14089,propio,pagerank,0.048881
+N-14089,propio,en_componente_gigante,0.0
+N-14089,propio,log_valor_total,0.020319
+N-14089,propio,log_valor_medio,0.321644
+N-14089,propio,n_procesos,0.082037
+N-14089,propio,n_cuentas_plataforma,0.0
+N-14089,un salto,strength,0.0
+N-14089,un salto,pagerank,0.064699
+N-14089,un salto,en_componente_gigante,0.0
+N-14089,un salto,log_valor_total,0.370171
+N-14089,un salto,log_valor_medio,0.230342
+N-14089,un salto,n_procesos,0.0
+N-14089,un salto,n_cuentas_plataforma,0.0
+N-14089,dos saltos,strength,0.0
+N-14089,dos saltos,pagerank,0.0
+N-14089,dos saltos,en_componente_gigante,0.0
+N-14089,dos saltos,log_valor_total,-0.142336
+N-14089,dos saltos,log_valor_medio,-0.19043
+N-14089,dos saltos,n_procesos,0.0
+N-14089,dos saltos,n_cuentas_plataforma,0.0
+N-34565,propio,strength,0.062134
+N-34565,propio,pagerank,0.0
+N-34565,propio,en_componente_gigante,0.0
+N-34565,propio,log_valor_total,0.044829
+N-34565,propio,log_valor_medio,0.312146
+N-34565,propio,n_procesos,0.059052
+N-34565,propio,n_cuentas_plataforma,0.0
+N-34565,un salto,strength,0.0
+N-34565,un salto,pagerank,0.062543
+N-34565,un salto,en_componente_gigante,0.0
+N-34565,un salto,log_valor_total,0.388114
+N-34565,un salto,log_valor_medio,0.244491
+N-34565,un salto,n_procesos,0.020012
+N-34565,un salto,n_cuentas_plataforma,0.0
+N-34565,dos saltos,strength,0.0
+N-34565,dos saltos,pagerank,0.0
+N-34565,dos saltos,en_componente_gigante,0.0
+N-34565,dos saltos,log_valor_total,-0.142814
+N-34565,dos saltos,log_valor_medio,-0.207655
+N-34565,dos saltos,n_procesos,0.0
+N-34565,dos saltos,n_cuentas_plataforma,0.0
+P-02175,propio,strength,0.0
+P-02175,propio,pagerank,0.021404
+P-02175,propio,en_componente_gigante,0.0
+P-02175,propio,log_valor_total,0.0
+P-02175,propio,log_valor_medio,0.383811
+P-02175,propio,n_procesos,0.067449
+P-02175,propio,n_cuentas_plataforma,0.0
+P-02175,un salto,strength,0.03819
+P-02175,un salto,pagerank,0.064641
+P-02175,un salto,en_componente_gigante,0.0
+P-02175,un salto,log_valor_total,0.382193
+P-02175,un salto,log_valor_medio,0.240011
+P-02175,un salto,n_procesos,0.0
+P-02175,un salto,n_cuentas_plataforma,-0.036375
+P-02175,dos saltos,strength,0.0
+P-02175,dos saltos,pagerank,0.0
+P-02175,dos saltos,en_componente_gigante,0.0
+P-02175,dos saltos,log_valor_total,-0.123978
+P-02175,dos saltos,log_valor_medio,-0.194494
+P-02175,dos saltos,n_procesos,0.0
+P-02175,dos saltos,n_cuentas_plataforma,0.0
+P-12728,propio,strength,0.05533
+P-12728,propio,pagerank,0.0
+P-12728,propio,en_componente_gigante,0.047391
+P-12728,propio,log_valor_total,0.050693
+P-12728,propio,log_valor_medio,0.361367
+P-12728,propio,n_procesos,0.076757
+P-12728,propio,n_cuentas_plataforma,0.0
+P-12728,un salto,strength,0.0
+P-12728,un salto,pagerank,0.0
+P-12728,un salto,en_componente_gigante,0.0
+P-12728,un salto,log_valor_total,0.391418
+P-12728,un salto,log_valor_medio,0.212589
+P-12728,un salto,n_procesos,0.0
+P-12728,un salto,n_cuentas_plataforma,0.0
+P-12728,dos saltos,strength,0.0
+P-12728,dos saltos,pagerank,0.039375
+P-12728,dos saltos,en_componente_gigante,0.0
+P-12728,dos saltos,log_valor_total,-0.174119
+P-12728,dos saltos,log_valor_medio,-0.217948
+P-12728,dos saltos,n_procesos,0.0
+P-12728,dos saltos,n_cuentas_plataforma,0.0
+N-06815,propio,strength,0.0
+N-06815,propio,pagerank,0.051128
+N-06815,propio,en_componente_gigante,0.0
+N-06815,propio,log_valor_total,0.0
+N-06815,propio,log_valor_medio,0.359482
+N-06815,propio,n_procesos,0.044258
+N-06815,propio,n_cuentas_plataforma,0.0
+N-06815,un salto,strength,0.0
+N-06815,un salto,pagerank,0.053325
+N-06815,un salto,en_componente_gigante,0.024191
+N-06815,un salto,log_valor_total,0.389352
+N-06815,un salto,log_valor_medio,0.22217
+N-06815,un salto,n_procesos,0.034513
+N-06815,un salto,n_cuentas_plataforma,0.0
+N-06815,dos saltos,strength,0.0
+N-06815,dos saltos,pagerank,0.0
+N-06815,dos saltos,en_componente_gigante,0.0
+N-06815,dos saltos,log_valor_total,-0.149746
+N-06815,dos saltos,log_valor_medio,-0.185821
+N-06815,dos saltos,n_procesos,0.0
+N-06815,dos saltos,n_cuentas_plataforma,0.0
+N-04616,propio,strength,0.042757
+N-04616,propio,pagerank,0.042464
+N-04616,propio,en_componente_gigante,0.0
+N-04616,propio,log_valor_total,0.0
+N-04616,propio,log_valor_medio,0.304095
+N-04616,propio,n_procesos,0.071738
+N-04616,propio,n_cuentas_plataforma,0.0
+N-04616,un salto,strength,0.0
+N-04616,un salto,pagerank,0.023672
+N-04616,un salto,en_componente_gigante,0.0
+N-04616,un salto,log_valor_total,0.394211
+N-04616,un salto,log_valor_medio,0.290413
+N-04616,un salto,n_procesos,0.036762
+N-04616,un salto,n_cuentas_plataforma,0.0
+N-04616,dos saltos,strength,0.0
+N-04616,dos saltos,pagerank,0.0
+N-04616,dos saltos,en_componente_gigante,0.0
+N-04616,dos saltos,log_valor_total,-0.126812
+N-04616,dos saltos,log_valor_medio,-0.236446
+N-04616,dos saltos,n_procesos,0.0
+N-04616,dos saltos,n_cuentas_plataforma,0.0
+P-01556,propio,strength,0.464501
+P-01556,propio,pagerank,-0.224498
+P-01556,propio,en_componente_gigante,0.0
+P-01556,propio,log_valor_total,0.027725
+P-01556,propio,log_valor_medio,0.0
+P-01556,propio,n_procesos,0.516638
+P-01556,propio,n_cuentas_plataforma,0.0
+P-01556,un salto,strength,-0.045031
+P-01556,un salto,pagerank,0.0
+P-01556,un salto,en_componente_gigante,0.0
+P-01556,un salto,log_valor_total,-0.121679
+P-01556,un salto,log_valor_medio,0.078804
+P-01556,un salto,n_procesos,0.0
+P-01556,un salto,n_cuentas_plataforma,0.034284
+P-01556,dos saltos,strength,0.0
+P-01556,dos saltos,pagerank,0.0
+P-01556,dos saltos,en_componente_gigante,0.0
+P-01556,dos saltos,log_valor_total,0.0
+P-01556,dos saltos,log_valor_medio,0.070482
+P-01556,dos saltos,n_procesos,0.0
+P-01556,dos saltos,n_cuentas_plataforma,0.040818
+P-22416,propio,strength,0.5441
+P-22416,propio,pagerank,-0.372773
+P-22416,propio,en_componente_gigante,0.022972
+P-22416,propio,log_valor_total,0.039461
+P-22416,propio,log_valor_medio,0.0
+P-22416,propio,n_procesos,0.596572
+P-22416,propio,n_cuentas_plataforma,0.0
+P-22416,un salto,strength,0.0
+P-22416,un salto,pagerank,0.0
+P-22416,un salto,en_componente_gigante,0.0
+P-22416,un salto,log_valor_total,-0.088359
+P-22416,un salto,log_valor_medio,0.0
+P-22416,un salto,n_procesos,0.0
+P-22416,un salto,n_cuentas_plataforma,0.016326
+P-22416,dos saltos,strength,0.014676
+P-22416,dos saltos,pagerank,0.0
+P-22416,dos saltos,en_componente_gigante,0.037637
+P-22416,dos saltos,log_valor_total,0.0
+P-22416,dos saltos,log_valor_medio,0.031428
+P-22416,dos saltos,n_procesos,0.0
+P-22416,dos saltos,n_cuentas_plataforma,0.0
+P-33498,propio,strength,0.431836
+P-33498,propio,pagerank,-0.244256
+P-33498,propio,en_componente_gigante,0.0
+P-33498,propio,log_valor_total,0.032255
+P-33498,propio,log_valor_medio,0.0
+P-33498,propio,n_procesos,0.580422
+P-33498,propio,n_cuentas_plataforma,0.0
+P-33498,un salto,strength,0.0
+P-33498,un salto,pagerank,0.024801
+P-33498,un salto,en_componente_gigante,0.0
+P-33498,un salto,log_valor_total,-0.083118
+P-33498,un salto,log_valor_medio,0.050237
+P-33498,un salto,n_procesos,0.0
+P-33498,un salto,n_cuentas_plataforma,0.0
+P-33498,dos saltos,strength,0.0
+P-33498,dos saltos,pagerank,0.0
+P-33498,dos saltos,en_componente_gigante,0.0
+P-33498,dos saltos,log_valor_total,-0.066414
+P-33498,dos saltos,log_valor_medio,0.068047
+P-33498,dos saltos,n_procesos,0.0
+P-33498,dos saltos,n_cuentas_plataforma,0.048144
+P-47194,propio,strength,0.090248
+P-47194,propio,pagerank,0.0
+P-47194,propio,en_componente_gigante,0.0
+P-47194,propio,log_valor_total,0.0
+P-47194,propio,log_valor_medio,0.431033
+P-47194,propio,n_procesos,0.09781
+P-47194,propio,n_cuentas_plataforma,0.0
+P-47194,un salto,strength,0.025663
+P-47194,un salto,pagerank,0.031822
+P-47194,un salto,en_componente_gigante,0.0
+P-47194,un salto,log_valor_total,0.269371
+P-47194,un salto,log_valor_medio,0.01516
+P-47194,un salto,n_procesos,0.0
+P-47194,un salto,n_cuentas_plataforma,0.0
+P-47194,dos saltos,strength,0.0
+P-47194,dos saltos,pagerank,0.0
+P-47194,dos saltos,en_componente_gigante,0.0
+P-47194,dos saltos,log_valor_total,0.0
+P-47194,dos saltos,log_valor_medio,-0.152953
+P-47194,dos saltos,n_procesos,0.026103
+P-47194,dos saltos,n_cuentas_plataforma,0.007666
+P-37642,propio,strength,0.094285
+P-37642,propio,pagerank,0.0
+P-37642,propio,en_componente_gigante,0.0
+P-37642,propio,log_valor_total,0.045577
+P-37642,propio,log_valor_medio,0.414345
+P-37642,propio,n_procesos,0.109128
+P-37642,propio,n_cuentas_plataforma,0.0
+P-37642,un salto,strength,0.047593
+P-37642,un salto,pagerank,0.045609
+P-37642,un salto,en_componente_gigante,0.0
+P-37642,un salto,log_valor_total,0.235536
+P-37642,un salto,log_valor_medio,0.0
+P-37642,un salto,n_procesos,0.0
+P-37642,un salto,n_cuentas_plataforma,0.0
+P-37642,dos saltos,strength,0.0
+P-37642,dos saltos,pagerank,0.0
+P-37642,dos saltos,en_componente_gigante,0.0
+P-37642,dos saltos,log_valor_total,-0.058111
+P-37642,dos saltos,log_valor_medio,-0.13213
+P-37642,dos saltos,n_procesos,0.0
+P-37642,dos saltos,n_cuentas_plataforma,0.040091
+P-44129,propio,strength,0.093786
+P-44129,propio,pagerank,0.0
+P-44129,propio,en_componente_gigante,0.012635
+P-44129,propio,log_valor_total,0.0
+P-44129,propio,log_valor_medio,0.432143
+P-44129,propio,n_procesos,0.06099
+P-44129,propio,n_cuentas_plataforma,0.0
+P-44129,un salto,strength,0.0
+P-44129,un salto,pagerank,0.029054
+P-44129,un salto,en_componente_gigante,0.0
+P-44129,un salto,log_valor_total,0.271849
+P-44129,un salto,log_valor_medio,0.027606
+P-44129,un salto,n_procesos,0.0
+P-44129,un salto,n_cuentas_plataforma,0.0
+P-44129,dos saltos,strength,0.0
+P-44129,dos saltos,pagerank,0.022971
+P-44129,dos saltos,en_componente_gigante,0.0
+P-44129,dos saltos,log_valor_total,0.0
+P-44129,dos saltos,log_valor_medio,-0.144658
+P-44129,dos saltos,n_procesos,0.0
+P-44129,dos saltos,n_cuentas_plataforma,0.035547
+P-30560,propio,strength,0.078462
+P-30560,propio,pagerank,0.0
+P-30560,propio,en_componente_gigante,0.0
+P-30560,propio,log_valor_total,0.0
+P-30560,propio,log_valor_medio,0.411289
+P-30560,propio,n_procesos,0.08156
+P-30560,propio,n_cuentas_plataforma,0.0
+P-30560,un salto,strength,0.017306
+P-30560,un salto,pagerank,0.039143
+P-30560,un salto,en_componente_gigante,0.0
+P-30560,un salto,log_valor_total,0.247367
+P-30560,un salto,log_valor_medio,0.042213
+P-30560,un salto,n_procesos,0.051266
+P-30560,un salto,n_cuentas_plataforma,0.0
+P-30560,dos saltos,strength,0.0
+P-30560,dos saltos,pagerank,0.0
+P-30560,dos saltos,en_componente_gigante,0.0
+P-30560,dos saltos,log_valor_total,0.0
+P-30560,dos saltos,log_valor_medio,-0.164309
+P-30560,dos saltos,n_procesos,0.0
+P-30560,dos saltos,n_cuentas_plataforma,0.037626
+N-03007,propio,strength,0.047132
+N-03007,propio,pagerank,0.026913
+N-03007,propio,en_componente_gigante,0.0
+N-03007,propio,log_valor_total,0.0
+N-03007,propio,log_valor_medio,0.161364
+N-03007,propio,n_procesos,0.033597
+N-03007,propio,n_cuentas_plataforma,0.0
+N-03007,un salto,strength,0.0
+N-03007,un salto,pagerank,0.044153
+N-03007,un salto,en_componente_gigante,0.0
+N-03007,un salto,log_valor_total,0.337747
+N-03007,un salto,log_valor_medio,0.128323
+N-03007,un salto,n_procesos,0.0
+N-03007,un salto,n_cuentas_plataforma,0.0
+N-03007,dos saltos,strength,0.016208
+N-03007,dos saltos,pagerank,0.0
+N-03007,dos saltos,en_componente_gigante,0.0
+N-03007,dos saltos,log_valor_total,0.034678
+N-03007,dos saltos,log_valor_medio,0.011469
+N-03007,dos saltos,n_procesos,0.0
+N-03007,dos saltos,n_cuentas_plataforma,0.0
+P-40096,propio,strength,0.425522
+P-40096,propio,pagerank,-0.280888
+P-40096,propio,en_componente_gigante,0.013597
+P-40096,propio,log_valor_total,0.0
+P-40096,propio,log_valor_medio,0.017045
+P-40096,propio,n_procesos,0.616327
+P-40096,propio,n_cuentas_plataforma,0.0
+P-40096,un salto,strength,0.021358
+P-40096,un salto,pagerank,0.0
+P-40096,un salto,en_componente_gigante,0.0
+P-40096,un salto,log_valor_total,-0.074553
+P-40096,un salto,log_valor_medio,0.0
+P-40096,un salto,n_procesos,0.0
+P-40096,un salto,n_cuentas_plataforma,0.0
+P-40096,dos saltos,strength,0.064671
+P-40096,dos saltos,pagerank,0.0
+P-40096,dos saltos,en_componente_gigante,0.0
+P-40096,dos saltos,log_valor_total,0.008818
+P-40096,dos saltos,log_valor_medio,0.0
+P-40096,dos saltos,n_procesos,0.028875
+P-40096,dos saltos,n_cuentas_plataforma,0.0
+N-07505,propio,strength,0.471448
+N-07505,propio,pagerank,-0.272245
+N-07505,propio,en_componente_gigante,0.0
+N-07505,propio,log_valor_total,0.0
+N-07505,propio,log_valor_medio,0.0
+N-07505,propio,n_procesos,0.615947
+N-07505,propio,n_cuentas_plataforma,0.0
+N-07505,un salto,strength,-0.03609
+N-07505,un salto,pagerank,0.013002
+N-07505,un salto,en_componente_gigante,0.0
+N-07505,un salto,log_valor_total,-0.070034
+N-07505,un salto,log_valor_medio,0.0
+N-07505,un salto,n_procesos,0.0
+N-07505,un salto,n_cuentas_plataforma,0.0
+N-07505,dos saltos,strength,0.01794
+N-07505,dos saltos,pagerank,0.043941
+N-07505,dos saltos,en_componente_gigante,0.0
+N-07505,dos saltos,log_valor_total,0.0
+N-07505,dos saltos,log_valor_medio,0.039351
+N-07505,dos saltos,n_procesos,0.0
+N-07505,dos saltos,n_cuentas_plataforma,0.016177
+P-26649,propio,strength,0.057889
+P-26649,propio,pagerank,0.0
+P-26649,propio,en_componente_gigante,0.0
+P-26649,propio,log_valor_total,0.0
+P-26649,propio,log_valor_medio,0.312393
+P-26649,propio,n_procesos,0.0
+P-26649,propio,n_cuentas_plataforma,0.0
+P-26649,un salto,strength,0.0
+P-26649,un salto,pagerank,0.052717
+P-26649,un salto,en_componente_gigante,0.0
+P-26649,un salto,log_valor_total,0.375312
+P-26649,un salto,log_valor_medio,0.24968
+P-26649,un salto,n_procesos,0.029857
+P-26649,un salto,n_cuentas_plataforma,0.0
+P-26649,dos saltos,strength,0.031625
+P-26649,dos saltos,pagerank,0.074651
+P-26649,dos saltos,en_componente_gigante,0.0
+P-26649,dos saltos,log_valor_total,-0.139042
+P-26649,dos saltos,log_valor_medio,-0.205901
+P-26649,dos saltos,n_procesos,0.0
+P-26649,dos saltos,n_cuentas_plataforma,0.0
+P-45674,propio,strength,0.084239
+P-45674,propio,pagerank,0.018324
+P-45674,propio,en_componente_gigante,0.0
+P-45674,propio,log_valor_total,0.0
+P-45674,propio,log_valor_medio,0.418555
+P-45674,propio,n_procesos,0.062839
+P-45674,propio,n_cuentas_plataforma,0.0
+P-45674,un salto,strength,0.0
+P-45674,un salto,pagerank,0.036288
+P-45674,un salto,en_componente_gigante,0.0
+P-45674,un salto,log_valor_total,0.253108
+P-45674,un salto,log_valor_medio,0.093287
+P-45674,un salto,n_procesos,0.009573
+P-45674,un salto,n_cuentas_plataforma,0.0
+P-45674,dos saltos,strength,0.0
+P-45674,dos saltos,pagerank,0.0
+P-45674,dos saltos,en_componente_gigante,0.018903
+P-45674,dos saltos,log_valor_total,0.0
+P-45674,dos saltos,log_valor_medio,-0.156398
+P-45674,dos saltos,n_procesos,0.0
+P-45674,dos saltos,n_cuentas_plataforma,0.0
+P-44441,propio,strength,0.050389
+P-44441,propio,pagerank,0.026528
+P-44441,propio,en_componente_gigante,0.0
+P-44441,propio,log_valor_total,0.0
+P-44441,propio,log_valor_medio,0.42454
+P-44441,propio,n_procesos,0.072826
+P-44441,propio,n_cuentas_plataforma,0.0
+P-44441,un salto,strength,0.018267
+P-44441,un salto,pagerank,0.056126
+P-44441,un salto,en_componente_gigante,0.0
+P-44441,un salto,log_valor_total,0.224748
+P-44441,un salto,log_valor_medio,0.07256
+P-44441,un salto,n_procesos,0.030703
+P-44441,un salto,n_cuentas_plataforma,0.0
+P-44441,dos saltos,strength,0.0
+P-44441,dos saltos,pagerank,0.0
+P-44441,dos saltos,en_componente_gigante,0.0
+P-44441,dos saltos,log_valor_total,0.0
+P-44441,dos saltos,log_valor_medio,-0.137969
+P-44441,dos saltos,n_procesos,0.0
+P-44441,dos saltos,n_cuentas_plataforma,0.0
+P-03670,propio,strength,0.022314
+P-03670,propio,pagerank,0.0
+P-03670,propio,en_componente_gigante,0.0
+P-03670,propio,log_valor_total,0.0
+P-03670,propio,log_valor_medio,0.381803
+P-03670,propio,n_procesos,0.026145
+P-03670,propio,n_cuentas_plataforma,0.0
+P-03670,un salto,strength,0.0
+P-03670,un salto,pagerank,0.03221
+P-03670,un salto,en_componente_gigante,0.023135
+P-03670,un salto,log_valor_total,0.320234
+P-03670,un salto,log_valor_medio,0.212453
+P-03670,un salto,n_procesos,0.0
+P-03670,un salto,n_cuentas_plataforma,0.0
+P-03670,dos saltos,strength,0.0
+P-03670,dos saltos,pagerank,0.0
+P-03670,dos saltos,en_componente_gigante,0.0
+P-03670,dos saltos,log_valor_total,-0.072944
+P-03670,dos saltos,log_valor_medio,-0.159069
+P-03670,dos saltos,n_procesos,0.0
+P-03670,dos saltos,n_cuentas_plataforma,0.051753
+N-01452,propio,strength,0.066304
+N-01452,propio,pagerank,0.059643
+N-01452,propio,en_componente_gigante,0.0
+N-01452,propio,log_valor_total,0.0
+N-01452,propio,log_valor_medio,0.105491
+N-01452,propio,n_procesos,0.022756
+N-01452,propio,n_cuentas_plataforma,0.0
+N-01452,un salto,strength,0.057743
+N-01452,un salto,pagerank,0.038882
+N-01452,un salto,en_componente_gigante,0.0
+N-01452,un salto,log_valor_total,0.0
+N-01452,un salto,log_valor_medio,0.041875
+N-01452,un salto,n_procesos,0.0
+N-01452,un salto,n_cuentas_plataforma,0.0
+N-01452,dos saltos,strength,0.0
+N-01452,dos saltos,pagerank,0.0
+N-01452,dos saltos,en_componente_gigante,0.0
+N-01452,dos saltos,log_valor_total,0.139775
+N-01452,dos saltos,log_valor_medio,0.296703
+N-01452,dos saltos,n_procesos,0.00787
+N-01452,dos saltos,n_cuentas_plataforma,0.0
+N-05636,propio,strength,0.041287
+N-05636,propio,pagerank,0.043033
+N-05636,propio,en_componente_gigante,0.0
+N-05636,propio,log_valor_total,0.0
+N-05636,propio,log_valor_medio,0.150686
+N-05636,propio,n_procesos,0.071051
+N-05636,propio,n_cuentas_plataforma,0.0
+N-05636,un salto,strength,0.058856
+N-05636,un salto,pagerank,0.051617
+N-05636,un salto,en_componente_gigante,0.0
+N-05636,un salto,log_valor_total,0.0
+N-05636,un salto,log_valor_medio,0.036684
+N-05636,un salto,n_procesos,0.0
+N-05636,un salto,n_cuentas_plataforma,0.0
+N-05636,dos saltos,strength,0.0
+N-05636,dos saltos,pagerank,0.0
+N-05636,dos saltos,en_componente_gigante,0.0
+N-05636,dos saltos,log_valor_total,0.133367
+N-05636,dos saltos,log_valor_medio,0.242609
+N-05636,dos saltos,n_procesos,0.007789
+N-05636,dos saltos,n_cuentas_plataforma,0.0
+N-32772,propio,strength,0.075092
+N-32772,propio,pagerank,0.044624
+N-32772,propio,en_componente_gigante,0.0
+N-32772,propio,log_valor_total,0.005796
+N-32772,propio,log_valor_medio,0.104753
+N-32772,propio,n_procesos,0.060315
+N-32772,propio,n_cuentas_plataforma,0.0
+N-32772,un salto,strength,0.080452
+N-32772,un salto,pagerank,0.045611
+N-32772,un salto,en_componente_gigante,0.0
+N-32772,un salto,log_valor_total,0.0
+N-32772,un salto,log_valor_medio,0.034227
+N-32772,un salto,n_procesos,0.0
+N-32772,un salto,n_cuentas_plataforma,0.0
+N-32772,dos saltos,strength,0.0
+N-32772,dos saltos,pagerank,0.0
+N-32772,dos saltos,en_componente_gigante,0.0
+N-32772,dos saltos,log_valor_total,0.129073
+N-32772,dos saltos,log_valor_medio,0.256516
+N-32772,dos saltos,n_procesos,0.0
+N-32772,dos saltos,n_cuentas_plataforma,0.0
+P-13396,propio,strength,0.536874
+P-13396,propio,pagerank,-0.342261
+P-13396,propio,en_componente_gigante,0.0
+P-13396,propio,log_valor_total,0.042292
+P-13396,propio,log_valor_medio,0.0
+P-13396,propio,n_procesos,0.566721
+P-13396,propio,n_cuentas_plataforma,0.0
+P-13396,un salto,strength,0.0
+P-13396,un salto,pagerank,0.0
+P-13396,un salto,en_componente_gigante,-0.035218
+P-13396,un salto,log_valor_total,-0.064427
+P-13396,un salto,log_valor_medio,0.064462
+P-13396,un salto,n_procesos,0.0
+P-13396,un salto,n_cuentas_plataforma,-0.056393
+P-13396,dos saltos,strength,0.0
+P-13396,dos saltos,pagerank,0.0
+P-13396,dos saltos,en_componente_gigante,0.018857
+P-13396,dos saltos,log_valor_total,0.0
+P-13396,dos saltos,log_valor_medio,0.105174
+P-13396,dos saltos,n_procesos,0.0
+P-13396,dos saltos,n_cuentas_plataforma,0.0
+P-20725,propio,strength,0.527858
+P-20725,propio,pagerank,-0.272063
+P-20725,propio,en_componente_gigante,0.0
+P-20725,propio,log_valor_total,0.045036
+P-20725,propio,log_valor_medio,0.0
+P-20725,propio,n_procesos,0.515609
+P-20725,propio,n_cuentas_plataforma,-0.082866
+P-20725,un salto,strength,0.0
+P-20725,un salto,pagerank,0.042109
+P-20725,un salto,en_componente_gigante,0.0
+P-20725,un salto,log_valor_total,-0.120345
+P-20725,un salto,log_valor_medio,0.063077
+P-20725,un salto,n_procesos,0.0
+P-20725,un salto,n_cuentas_plataforma,0.0
+P-20725,dos saltos,strength,0.0
+P-20725,dos saltos,pagerank,0.0
+P-20725,dos saltos,en_componente_gigante,0.0
+P-20725,dos saltos,log_valor_total,0.0
+P-20725,dos saltos,log_valor_medio,0.078959
+P-20725,dos saltos,n_procesos,0.0
+P-20725,dos saltos,n_cuentas_plataforma,0.037895
+N-25409,propio,strength,0.059313
+N-25409,propio,pagerank,0.074774
+N-25409,propio,en_componente_gigante,0.0
+N-25409,propio,log_valor_total,0.0
+N-25409,propio,log_valor_medio,0.074912
+N-25409,propio,n_procesos,0.04578
+N-25409,propio,n_cuentas_plataforma,0.0
+N-25409,un salto,strength,0.062861
+N-25409,un salto,pagerank,0.04531
+N-25409,un salto,en_componente_gigante,0.0
+N-25409,un salto,log_valor_total,0.0
+N-25409,un salto,log_valor_medio,0.055853
+N-25409,un salto,n_procesos,0.045585
+N-25409,un salto,n_cuentas_plataforma,0.0
+N-25409,dos saltos,strength,0.0
+N-25409,dos saltos,pagerank,0.0
+N-25409,dos saltos,en_componente_gigante,0.0
+N-25409,dos saltos,log_valor_total,0.11537
+N-25409,dos saltos,log_valor_medio,0.255103
+N-25409,dos saltos,n_procesos,0.0
+N-25409,dos saltos,n_cuentas_plataforma,0.0
+N-19779,propio,strength,0.042019
+N-19779,propio,pagerank,0.051801
+N-19779,propio,en_componente_gigante,0.0
+N-19779,propio,log_valor_total,0.0
+N-19779,propio,log_valor_medio,0.100287
+N-19779,propio,n_procesos,0.0515
+N-19779,propio,n_cuentas_plataforma,0.0
+N-19779,un salto,strength,0.070402
+N-19779,un salto,pagerank,0.035223
+N-19779,un salto,en_componente_gigante,0.0
+N-19779,un salto,log_valor_total,0.0
+N-19779,un salto,log_valor_medio,0.0
+N-19779,un salto,n_procesos,0.030633
+N-19779,un salto,n_cuentas_plataforma,0.0
+N-19779,dos saltos,strength,0.0
+N-19779,dos saltos,pagerank,0.020326
+N-19779,dos saltos,en_componente_gigante,0.0
+N-19779,dos saltos,log_valor_total,0.163464
+N-19779,dos saltos,log_valor_medio,0.267409
+N-19779,dos saltos,n_procesos,0.0
+N-19779,dos saltos,n_cuentas_plataforma,0.0
+P-16338,propio,strength,0.543353
+P-16338,propio,pagerank,-0.356289
+P-16338,propio,en_componente_gigante,0.0
+P-16338,propio,log_valor_total,0.031968
+P-16338,propio,log_valor_medio,0.0
+P-16338,propio,n_procesos,0.597879
+P-16338,propio,n_cuentas_plataforma,0.0
+P-16338,un salto,strength,0.0
+P-16338,un salto,pagerank,-0.029028
+P-16338,un salto,en_componente_gigante,0.0
+P-16338,un salto,log_valor_total,0.0
+P-16338,un salto,log_valor_medio,0.0
+P-16338,un salto,n_procesos,-0.058979
+P-16338,un salto,n_cuentas_plataforma,0.0
+P-16338,dos saltos,strength,0.057122
+P-16338,dos saltos,pagerank,0.0
+P-16338,dos saltos,en_componente_gigante,0.0
+P-16338,dos saltos,log_valor_total,0.046198
+P-16338,dos saltos,log_valor_medio,0.0
+P-16338,dos saltos,n_procesos,0.034179
+P-16338,dos saltos,n_cuentas_plataforma,-0.03361
+N-27139,propio,strength,0.050321
+N-27139,propio,pagerank,0.046261
+N-27139,propio,en_componente_gigante,0.0
+N-27139,propio,log_valor_total,0.035059
+N-27139,propio,log_valor_medio,0.11073
+N-27139,propio,n_procesos,0.042414
+N-27139,propio,n_cuentas_plataforma,0.0
+N-27139,un salto,strength,0.089005
+N-27139,un salto,pagerank,0.046138
+N-27139,un salto,en_componente_gigante,0.0
+N-27139,un salto,log_valor_total,0.0
+N-27139,un salto,log_valor_medio,0.046483
+N-27139,un salto,n_procesos,0.0
+N-27139,un salto,n_cuentas_plataforma,0.0
+N-27139,dos saltos,strength,0.0
+N-27139,dos saltos,pagerank,0.0
+N-27139,dos saltos,en_componente_gigante,0.0
+N-27139,dos saltos,log_valor_total,0.123065
+N-27139,dos saltos,log_valor_medio,0.242564
+N-27139,dos saltos,n_procesos,0.0
+N-27139,dos saltos,n_cuentas_plataforma,0.0
+P-46051,propio,strength,0.385154
+P-46051,propio,pagerank,-0.187466
+P-46051,propio,en_componente_gigante,0.0
+P-46051,propio,log_valor_total,0.023631
+P-46051,propio,log_valor_medio,0.0
+P-46051,propio,n_procesos,0.5379
+P-46051,propio,n_cuentas_plataforma,0.0
+P-46051,un salto,strength,0.040195
+P-46051,un salto,pagerank,-0.056494
+P-46051,un salto,en_componente_gigante,0.0
+P-46051,un salto,log_valor_total,-0.035537
+P-46051,un salto,log_valor_medio,0.0
+P-46051,un salto,n_procesos,0.0
+P-46051,un salto,n_cuentas_plataforma,0.0
+P-46051,dos saltos,strength,0.089294
+P-46051,dos saltos,pagerank,0.0
+P-46051,dos saltos,en_componente_gigante,0.0
+P-46051,dos saltos,log_valor_total,0.020039
+P-46051,dos saltos,log_valor_medio,0.0
+P-46051,dos saltos,n_procesos,0.0
+P-46051,dos saltos,n_cuentas_plataforma,0.015209
+P-45472,propio,strength,0.464312
+P-45472,propio,pagerank,-0.300124
+P-45472,propio,en_componente_gigante,0.0
+P-45472,propio,log_valor_total,0.035456
+P-45472,propio,log_valor_medio,-0.036659
+P-45472,propio,n_procesos,0.502504
+P-45472,propio,n_cuentas_plataforma,0.0
+P-45472,un salto,strength,0.0
+P-45472,un salto,pagerank,0.026385
+P-45472,un salto,en_componente_gigante,0.0
+P-45472,un salto,log_valor_total,-0.099971
+P-45472,un salto,log_valor_medio,0.118548
+P-45472,un salto,n_procesos,0.0
+P-45472,un salto,n_cuentas_plataforma,0.0
+P-45472,dos saltos,strength,0.0
+P-45472,dos saltos,pagerank,0.0
+P-45472,dos saltos,en_componente_gigante,0.0
+P-45472,dos saltos,log_valor_total,0.0
+P-45472,dos saltos,log_valor_medio,0.099981
+P-45472,dos saltos,n_procesos,0.0
+P-45472,dos saltos,n_cuentas_plataforma,0.020055
+P-42205,propio,strength,0.463565
+P-42205,propio,pagerank,-0.291023
+P-42205,propio,en_componente_gigante,0.0
+P-42205,propio,log_valor_total,0.020294
+P-42205,propio,log_valor_medio,0.0
+P-42205,propio,n_procesos,0.552606
+P-42205,propio,n_cuentas_plataforma,0.0
+P-42205,un salto,strength,0.0
+P-42205,un salto,pagerank,0.046026
+P-42205,un salto,en_componente_gigante,0.0
+P-42205,un salto,log_valor_total,-0.054167
+P-42205,un salto,log_valor_medio,0.016205
+P-42205,un salto,n_procesos,0.0
+P-42205,un salto,n_cuentas_plataforma,0.0
+P-42205,dos saltos,strength,0.027197
+P-42205,dos saltos,pagerank,0.018885
+P-42205,dos saltos,en_componente_gigante,0.0
+P-42205,dos saltos,log_valor_total,0.0
+P-42205,dos saltos,log_valor_medio,0.0
+P-42205,dos saltos,n_procesos,0.0
+P-42205,dos saltos,n_cuentas_plataforma,0.030234
+N-17109,propio,strength,0.060976
+N-17109,propio,pagerank,0.047909
+N-17109,propio,en_componente_gigante,0.0
+N-17109,propio,log_valor_total,0.0
+N-17109,propio,log_valor_medio,0.124285
+N-17109,propio,n_procesos,0.038075
+N-17109,propio,n_cuentas_plataforma,0.0
+N-17109,un salto,strength,0.045735
+N-17109,un salto,pagerank,0.038677
+N-17109,un salto,en_componente_gigante,0.027223
+N-17109,un salto,log_valor_total,0.0
+N-17109,un salto,log_valor_medio,0.052782
+N-17109,un salto,n_procesos,0.0
+N-17109,un salto,n_cuentas_plataforma,0.0
+N-17109,dos saltos,strength,0.0
+N-17109,dos saltos,pagerank,0.0
+N-17109,dos saltos,en_componente_gigante,0.0
+N-17109,dos saltos,log_valor_total,0.131139
+N-17109,dos saltos,log_valor_medio,0.261323
+N-17109,dos saltos,n_procesos,0.0
+N-17109,dos saltos,n_cuentas_plataforma,0.0
+P-30258,propio,strength,0.377397
+P-30258,propio,pagerank,-0.168274
+P-30258,propio,en_componente_gigante,0.0
+P-30258,propio,log_valor_total,0.025333
+P-30258,propio,log_valor_medio,0.0
+P-30258,propio,n_procesos,0.477595
+P-30258,propio,n_cuentas_plataforma,0.0
+P-30258,un salto,strength,0.062634
+P-30258,un salto,pagerank,-0.053167
+P-30258,un salto,en_componente_gigante,0.0
+P-30258,un salto,log_valor_total,-0.054637
+P-30258,un salto,log_valor_medio,0.023313
+P-30258,un salto,n_procesos,0.0
+P-30258,un salto,n_cuentas_plataforma,0.0
+P-30258,dos saltos,strength,0.100117
+P-30258,dos saltos,pagerank,0.0
+P-30258,dos saltos,en_componente_gigante,0.0
+P-30258,dos saltos,log_valor_total,0.0
+P-30258,dos saltos,log_valor_medio,0.0
+P-30258,dos saltos,n_procesos,0.0
+P-30258,dos saltos,n_cuentas_plataforma,0.036594
+N-24708,propio,strength,0.066743
+N-24708,propio,pagerank,0.037105
+N-24708,propio,en_componente_gigante,0.0
+N-24708,propio,log_valor_total,0.035356
+N-24708,propio,log_valor_medio,0.094473
+N-24708,propio,n_procesos,0.072156
+N-24708,propio,n_cuentas_plataforma,0.0
+N-24708,un salto,strength,0.051271
+N-24708,un salto,pagerank,0.079275
+N-24708,un salto,en_componente_gigante,0.0
+N-24708,un salto,log_valor_total,0.0
+N-24708,un salto,log_valor_medio,0.066472
+N-24708,un salto,n_procesos,0.0
+N-24708,un salto,n_cuentas_plataforma,0.0
+N-24708,dos saltos,strength,0.0
+N-24708,dos saltos,pagerank,0.0
+N-24708,dos saltos,en_componente_gigante,0.0
+N-24708,dos saltos,log_valor_total,0.102776
+N-24708,dos saltos,log_valor_medio,0.220765
+N-24708,dos saltos,n_procesos,0.0
+N-24708,dos saltos,n_cuentas_plataforma,0.0
+N-13026,propio,strength,0.065334
+N-13026,propio,pagerank,0.067002
+N-13026,propio,en_componente_gigante,0.0
+N-13026,propio,log_valor_total,0.018081
+N-13026,propio,log_valor_medio,0.090543
+N-13026,propio,n_procesos,0.049381
+N-13026,propio,n_cuentas_plataforma,0.0
+N-13026,un salto,strength,0.096446
+N-13026,un salto,pagerank,0.041341
+N-13026,un salto,en_componente_gigante,0.0
+N-13026,un salto,log_valor_total,0.0
+N-13026,un salto,log_valor_medio,0.014927
+N-13026,un salto,n_procesos,0.0
+N-13026,un salto,n_cuentas_plataforma,0.0
+N-13026,dos saltos,strength,0.0
+N-13026,dos saltos,pagerank,0.0
+N-13026,dos saltos,en_componente_gigante,0.0
+N-13026,dos saltos,log_valor_total,0.105806
+N-13026,dos saltos,log_valor_medio,0.276902
+N-13026,dos saltos,n_procesos,0.0
+N-13026,dos saltos,n_cuentas_plataforma,0.0
+N-07244,propio,strength,0.040956
+N-07244,propio,pagerank,0.035821
+N-07244,propio,en_componente_gigante,0.0
+N-07244,propio,log_valor_total,0.0
+N-07244,propio,log_valor_medio,0.14317
+N-07244,propio,n_procesos,0.072331
+N-07244,propio,n_cuentas_plataforma,0.0
+N-07244,un salto,strength,0.04391
+N-07244,un salto,pagerank,0.057114
+N-07244,un salto,en_componente_gigante,0.0
+N-07244,un salto,log_valor_total,0.0
+N-07244,un salto,log_valor_medio,0.10969
+N-07244,un salto,n_procesos,0.028707
+N-07244,un salto,n_cuentas_plataforma,0.0
+N-07244,dos saltos,strength,0.0
+N-07244,dos saltos,pagerank,0.0
+N-07244,dos saltos,en_componente_gigante,0.0
+N-07244,dos saltos,log_valor_total,0.084125
+N-07244,dos saltos,log_valor_medio,0.209887
+N-07244,dos saltos,n_procesos,0.0
+N-07244,dos saltos,n_cuentas_plataforma,0.0
+P-17934,propio,strength,0.530689
+P-17934,propio,pagerank,-0.335091
+P-17934,propio,en_componente_gigante,0.0
+P-17934,propio,log_valor_total,0.027369
+P-17934,propio,log_valor_medio,0.0
+P-17934,propio,n_procesos,0.577604
+P-17934,propio,n_cuentas_plataforma,0.0
+P-17934,un salto,strength,-0.04968
+P-17934,un salto,pagerank,0.030833
+P-17934,un salto,en_componente_gigante,0.0
+P-17934,un salto,log_valor_total,0.0
+P-17934,un salto,log_valor_medio,0.0
+P-17934,un salto,n_procesos,0.0
+P-17934,un salto,n_cuentas_plataforma,0.043367
+P-17934,dos saltos,strength,0.030254
+P-17934,dos saltos,pagerank,0.027154
+P-17934,dos saltos,en_componente_gigante,-0.057014
+P-17934,dos saltos,log_valor_total,0.0
+P-17934,dos saltos,log_valor_medio,0.0
+P-17934,dos saltos,n_procesos,0.0
+P-17934,dos saltos,n_cuentas_plataforma,0.0
+N-10964,propio,strength,0.050995
+N-10964,propio,pagerank,0.039715
+N-10964,propio,en_componente_gigante,0.0
+N-10964,propio,log_valor_total,0.0
+N-10964,propio,log_valor_medio,0.157336
+N-10964,propio,n_procesos,0.048483
+N-10964,propio,n_cuentas_plataforma,0.0
+N-10964,un salto,strength,0.060845
+N-10964,un salto,pagerank,0.081132
+N-10964,un salto,en_componente_gigante,0.0
+N-10964,un salto,log_valor_total,0.0
+N-10964,un salto,log_valor_medio,0.018477
+N-10964,un salto,n_procesos,0.0
+N-10964,un salto,n_cuentas_plataforma,0.0
+N-10964,dos saltos,strength,0.0
+N-10964,dos saltos,pagerank,0.012918
+N-10964,dos saltos,en_componente_gigante,0.0
+N-10964,dos saltos,log_valor_total,0.11118
+N-10964,dos saltos,log_valor_medio,0.243885
+N-10964,dos saltos,n_procesos,0.0
+N-10964,dos saltos,n_cuentas_plataforma,0.0
+N-11796,propio,strength,0.059029
+N-11796,propio,pagerank,0.05633
+N-11796,propio,en_componente_gigante,0.0
+N-11796,propio,log_valor_total,0.0
+N-11796,propio,log_valor_medio,0.158589
+N-11796,propio,n_procesos,0.0176
+N-11796,propio,n_cuentas_plataforma,0.0
+N-11796,un salto,strength,0.058688
+N-11796,un salto,pagerank,0.050467
+N-11796,un salto,en_componente_gigante,0.0
+N-11796,un salto,log_valor_total,0.0
+N-11796,un salto,log_valor_medio,0.031659
+N-11796,un salto,n_procesos,0.0
+N-11796,un salto,n_cuentas_plataforma,0.0
+N-11796,dos saltos,strength,0.0
+N-11796,dos saltos,pagerank,0.0
+N-11796,dos saltos,en_componente_gigante,0.0
+N-11796,dos saltos,log_valor_total,0.136406
+N-11796,dos saltos,log_valor_medio,0.2379
+N-11796,dos saltos,n_procesos,0.017912
+N-11796,dos saltos,n_cuentas_plataforma,0.0
+N-33312,propio,strength,0.053249
+N-33312,propio,pagerank,0.034664
+N-33312,propio,en_componente_gigante,0.0
+N-33312,propio,log_valor_total,-0.10145
+N-33312,propio,log_valor_medio,0.39748
+N-33312,propio,n_procesos,0.042185
+N-33312,propio,n_cuentas_plataforma,0.0
+N-33312,un salto,strength,0.058645
+N-33312,un salto,pagerank,0.039444
+N-33312,un salto,en_componente_gigante,0.0
+N-33312,un salto,log_valor_total,0.263131
+N-33312,un salto,log_valor_medio,0.190593
+N-33312,un salto,n_procesos,0.0
+N-33312,un salto,n_cuentas_plataforma,0.0
+N-33312,dos saltos,strength,0.0
+N-33312,dos saltos,pagerank,0.0
+N-33312,dos saltos,en_componente_gigante,0.0
+N-33312,dos saltos,log_valor_total,0.0
+N-33312,dos saltos,log_valor_medio,-0.153413
+N-33312,dos saltos,n_procesos,0.0
+N-33312,dos saltos,n_cuentas_plataforma,0.0
+P-39389,propio,strength,0.493738
+P-39389,propio,pagerank,-0.326507
+P-39389,propio,en_componente_gigante,0.0
+P-39389,propio,log_valor_total,0.049996
+P-39389,propio,log_valor_medio,0.0
+P-39389,propio,n_procesos,0.545582
+P-39389,propio,n_cuentas_plataforma,0.0
+P-39389,un salto,strength,0.0
+P-39389,un salto,pagerank,0.0
+P-39389,un salto,en_componente_gigante,0.0
+P-39389,un salto,log_valor_total,-0.117657
+P-39389,un salto,log_valor_medio,0.041228
+P-39389,un salto,n_procesos,0.0
+P-39389,un salto,n_cuentas_plataforma,0.028324
+P-39389,dos saltos,strength,0.016647
+P-39389,dos saltos,pagerank,0.0
+P-39389,dos saltos,en_componente_gigante,0.0
+P-39389,dos saltos,log_valor_total,0.0
+P-39389,dos saltos,log_valor_medio,0.077278
+P-39389,dos saltos,n_procesos,0.0
+P-39389,dos saltos,n_cuentas_plataforma,0.015494
+N-23903,propio,strength,0.075677
+N-23903,propio,pagerank,0.033751
+N-23903,propio,en_componente_gigante,0.0
+N-23903,propio,log_valor_total,0.0
+N-23903,propio,log_valor_medio,0.131856
+N-23903,propio,n_procesos,0.003157
+N-23903,propio,n_cuentas_plataforma,0.0
+N-23903,un salto,strength,0.066968
+N-23903,un salto,pagerank,0.090091
+N-23903,un salto,en_componente_gigante,0.0
+N-23903,un salto,log_valor_total,0.0
+N-23903,un salto,log_valor_medio,0.043867
+N-23903,un salto,n_procesos,0.0
+N-23903,un salto,n_cuentas_plataforma,0.0
+N-23903,dos saltos,strength,0.0
+N-23903,dos saltos,pagerank,0.0
+N-23903,dos saltos,en_componente_gigante,0.0
+N-23903,dos saltos,log_valor_total,0.111958
+N-23903,dos saltos,log_valor_medio,0.238206
+N-23903,dos saltos,n_procesos,0.028282
+N-23903,dos saltos,n_cuentas_plataforma,0.0
+P-20117,propio,strength,0.501069
+P-20117,propio,pagerank,-0.325023
+P-20117,propio,en_componente_gigante,0.0
+P-20117,propio,log_valor_total,0.052768
+P-20117,propio,log_valor_medio,0.0
+P-20117,propio,n_procesos,0.563016
+P-20117,propio,n_cuentas_plataforma,-0.132997
+P-20117,un salto,strength,0.0
+P-20117,un salto,pagerank,0.0
+P-20117,un salto,en_componente_gigante,0.0
+P-20117,un salto,log_valor_total,-0.123863
+P-20117,un salto,log_valor_medio,0.086297
+P-20117,un salto,n_procesos,0.0
+P-20117,un salto,n_cuentas_plataforma,0.046491
+P-20117,dos saltos,strength,0.0
+P-20117,dos saltos,pagerank,0.0
+P-20117,dos saltos,en_componente_gigante,0.0
+P-20117,dos saltos,log_valor_total,0.0
+P-20117,dos saltos,log_valor_medio,0.103615
+P-20117,dos saltos,n_procesos,0.0
+P-20117,dos saltos,n_cuentas_plataforma,0.051461
+N-21105,propio,strength,0.057176
+N-21105,propio,pagerank,0.035792
+N-21105,propio,en_componente_gigante,0.0
+N-21105,propio,log_valor_total,0.0
+N-21105,propio,log_valor_medio,0.155411
+N-21105,propio,n_procesos,0.059893
+N-21105,propio,n_cuentas_plataforma,0.0
+N-21105,un salto,strength,0.059932
+N-21105,un salto,pagerank,0.023961
+N-21105,un salto,en_componente_gigante,0.0
+N-21105,un salto,log_valor_total,0.0
+N-21105,un salto,log_valor_medio,0.077778
+N-21105,un salto,n_procesos,0.031475
+N-21105,un salto,n_cuentas_plataforma,0.0
+N-21105,dos saltos,strength,0.0
+N-21105,dos saltos,pagerank,0.0
+N-21105,dos saltos,en_componente_gigante,0.0
+N-21105,dos saltos,log_valor_total,0.079512
+N-21105,dos saltos,log_valor_medio,0.236213
+N-21105,dos saltos,n_procesos,0.0
+N-21105,dos saltos,n_cuentas_plataforma,0.0
+N-06619,propio,strength,0.024344
+N-06619,propio,pagerank,0.007056
+N-06619,propio,en_componente_gigante,0.0
+N-06619,propio,log_valor_total,0.0
+N-06619,propio,log_valor_medio,0.114501
+N-06619,propio,n_procesos,0.065102
+N-06619,propio,n_cuentas_plataforma,0.0
+N-06619,un salto,strength,0.044393
+N-06619,un salto,pagerank,0.078068
+N-06619,un salto,en_componente_gigante,0.0
+N-06619,un salto,log_valor_total,0.0
+N-06619,un salto,log_valor_medio,0.074345
+N-06619,un salto,n_procesos,0.0
+N-06619,un salto,n_cuentas_plataforma,0.007784
+N-06619,dos saltos,strength,0.0
+N-06619,dos saltos,pagerank,0.0
+N-06619,dos saltos,en_componente_gigante,0.0
+N-06619,dos saltos,log_valor_total,0.14046
+N-06619,dos saltos,log_valor_medio,0.258312
+N-06619,dos saltos,n_procesos,0.0
+N-06619,dos saltos,n_cuentas_plataforma,0.0
+N-00679,propio,strength,0.044845
+N-00679,propio,pagerank,0.050185
+N-00679,propio,en_componente_gigante,0.0
+N-00679,propio,log_valor_total,0.029206
+N-00679,propio,log_valor_medio,0.113792
+N-00679,propio,n_procesos,0.057767
+N-00679,propio,n_cuentas_plataforma,0.0
+N-00679,un salto,strength,0.058364
+N-00679,un salto,pagerank,0.031966
+N-00679,un salto,en_componente_gigante,0.0
+N-00679,un salto,log_valor_total,0.0
+N-00679,un salto,log_valor_medio,0.060588
+N-00679,un salto,n_procesos,0.0
+N-00679,un salto,n_cuentas_plataforma,0.0
+N-00679,dos saltos,strength,0.0
+N-00679,dos saltos,pagerank,0.0
+N-00679,dos saltos,en_componente_gigante,0.0
+N-00679,dos saltos,log_valor_total,0.13572
+N-00679,dos saltos,log_valor_medio,0.230307
+N-00679,dos saltos,n_procesos,0.0
+N-00679,dos saltos,n_cuentas_plataforma,0.0
+N-26633,propio,strength,0.05652
+N-26633,propio,pagerank,0.032931
+N-26633,propio,en_componente_gigante,0.0
+N-26633,propio,log_valor_total,0.0
+N-26633,propio,log_valor_medio,0.079165
+N-26633,propio,n_procesos,0.027215
+N-26633,propio,n_cuentas_plataforma,0.0
+N-26633,un salto,strength,0.0
+N-26633,un salto,pagerank,0.082085
+N-26633,un salto,en_componente_gigante,0.0
+N-26633,un salto,log_valor_total,0.0
+N-26633,un salto,log_valor_medio,0.0
+N-26633,un salto,n_procesos,0.0
+N-26633,un salto,n_cuentas_plataforma,0.014806
+N-26633,dos saltos,strength,0.0
+N-26633,dos saltos,pagerank,0.012136
+N-26633,dos saltos,en_componente_gigante,0.0
+N-26633,dos saltos,log_valor_total,0.029449
+N-26633,dos saltos,log_valor_medio,0.051724
+N-26633,dos saltos,n_procesos,0.0
+N-26633,dos saltos,n_cuentas_plataforma,0.424808
+N-09363,propio,strength,0.0
+N-09363,propio,pagerank,0.051485
+N-09363,propio,en_componente_gigante,0.0
+N-09363,propio,log_valor_total,0.03758
+N-09363,propio,log_valor_medio,0.034728
+N-09363,propio,n_procesos,0.039999
+N-09363,propio,n_cuentas_plataforma,0.0
+N-09363,un salto,strength,0.090431
+N-09363,un salto,pagerank,0.058279
+N-09363,un salto,en_componente_gigante,0.0
+N-09363,un salto,log_valor_total,0.0
+N-09363,un salto,log_valor_medio,0.041183
+N-09363,un salto,n_procesos,0.040642
+N-09363,un salto,n_cuentas_plataforma,0.0
+N-09363,dos saltos,strength,0.0
+N-09363,dos saltos,pagerank,0.0
+N-09363,dos saltos,en_componente_gigante,0.0
+N-09363,dos saltos,log_valor_total,0.127735
+N-09363,dos saltos,log_valor_medio,0.286897
+N-09363,dos saltos,n_procesos,0.0
+N-09363,dos saltos,n_cuentas_plataforma,0.0
+P-40209,propio,strength,0.0
+P-40209,propio,pagerank,0.075254
+P-40209,propio,en_componente_gigante,0.0
+P-40209,propio,log_valor_total,0.0
+P-40209,propio,log_valor_medio,0.074275
+P-40209,propio,n_procesos,0.042041
+P-40209,propio,n_cuentas_plataforma,0.0
+P-40209,un salto,strength,0.149894
+P-40209,un salto,pagerank,0.0
+P-40209,un salto,en_componente_gigante,0.0
+P-40209,un salto,log_valor_total,0.149998
+P-40209,un salto,log_valor_medio,0.042765
+P-40209,un salto,n_procesos,0.094968
+P-40209,un salto,n_cuentas_plataforma,0.0
+P-40209,dos saltos,strength,0.060634
+P-40209,dos saltos,pagerank,0.0
+P-40209,dos saltos,en_componente_gigante,0.0
+P-40209,dos saltos,log_valor_total,0.0
+P-40209,dos saltos,log_valor_medio,0.032565
+P-40209,dos saltos,n_procesos,0.085396
+P-40209,dos saltos,n_cuentas_plataforma,0.0
+N-35651,propio,strength,0.105572
+N-35651,propio,pagerank,0.039527
+N-35651,propio,en_componente_gigante,0.0
+N-35651,propio,log_valor_total,0.0
+N-35651,propio,log_valor_medio,0.073133
+N-35651,propio,n_procesos,0.118473
+N-35651,propio,n_cuentas_plataforma,0.0
+N-35651,un salto,strength,0.0
+N-35651,un salto,pagerank,0.0
+N-35651,un salto,en_componente_gigante,0.0
+N-35651,un salto,log_valor_total,0.344134
+N-35651,un salto,log_valor_medio,0.032898
+N-35651,un salto,n_procesos,0.07855
+N-35651,un salto,n_cuentas_plataforma,0.0
+N-35651,dos saltos,strength,0.115168
+N-35651,dos saltos,pagerank,0.0
+N-35651,dos saltos,en_componente_gigante,0.0
+N-35651,dos saltos,log_valor_total,0.0
+N-35651,dos saltos,log_valor_medio,-0.127768
+N-35651,dos saltos,n_procesos,0.0
+N-35651,dos saltos,n_cuentas_plataforma,0.027549
+P-25761,propio,strength,0.056911
+P-25761,propio,pagerank,0.0
+P-25761,propio,en_componente_gigante,0.0
+P-25761,propio,log_valor_total,0.0
+P-25761,propio,log_valor_medio,0.369663
+P-25761,propio,n_procesos,0.045129
+P-25761,propio,n_cuentas_plataforma,0.0
+P-25761,un salto,strength,0.0
+P-25761,un salto,pagerank,0.082638
+P-25761,un salto,en_componente_gigante,0.0
+P-25761,un salto,log_valor_total,0.265507
+P-25761,un salto,log_valor_medio,0.157633
+P-25761,un salto,n_procesos,0.0
+P-25761,un salto,n_cuentas_plataforma,0.0
+P-25761,dos saltos,strength,0.0
+P-25761,dos saltos,pagerank,0.048041
+P-25761,dos saltos,en_componente_gigante,0.0
+P-25761,dos saltos,log_valor_total,-0.095727
+P-25761,dos saltos,log_valor_medio,-0.159254
+P-25761,dos saltos,n_procesos,0.0
+P-25761,dos saltos,n_cuentas_plataforma,0.034474
+P-23470,propio,strength,0.0
+P-23470,propio,pagerank,0.042696
+P-23470,propio,en_componente_gigante,0.0
+P-23470,propio,log_valor_total,0.0
+P-23470,propio,log_valor_medio,0.328788
+P-23470,propio,n_procesos,0.054786
+P-23470,propio,n_cuentas_plataforma,0.0
+P-23470,un salto,strength,0.015991
+P-23470,un salto,pagerank,0.045498
+P-23470,un salto,en_componente_gigante,0.0
+P-23470,un salto,log_valor_total,0.243806
+P-23470,un salto,log_valor_medio,0.164152
+P-23470,un salto,n_procesos,0.027207
+P-23470,un salto,n_cuentas_plataforma,0.0
+P-23470,dos saltos,strength,0.0
+P-23470,dos saltos,pagerank,0.0
+P-23470,dos saltos,en_componente_gigante,0.0
+P-23470,dos saltos,log_valor_total,0.0
+P-23470,dos saltos,log_valor_medio,-0.153443
+P-23470,dos saltos,n_procesos,0.0
+P-23470,dos saltos,n_cuentas_plataforma,0.035534
+P-24859,propio,strength,0.017247
+P-24859,propio,pagerank,0.0
+P-24859,propio,en_componente_gigante,0.0
+P-24859,propio,log_valor_total,0.0
+P-24859,propio,log_valor_medio,0.33419
+P-24859,propio,n_procesos,0.037737
+P-24859,propio,n_cuentas_plataforma,0.0
+P-24859,un salto,strength,0.006526
+P-24859,un salto,pagerank,0.026437
+P-24859,un salto,en_componente_gigante,0.0
+P-24859,un salto,log_valor_total,0.244728
+P-24859,un salto,log_valor_medio,0.090285
+P-24859,un salto,n_procesos,0.012934
+P-24859,un salto,n_cuentas_plataforma,0.0
+P-24859,dos saltos,strength,0.0
+P-24859,dos saltos,pagerank,0.017064
+P-24859,dos saltos,en_componente_gigante,0.0
+P-24859,dos saltos,log_valor_total,0.0
+P-24859,dos saltos,log_valor_medio,0.0
+P-24859,dos saltos,n_procesos,0.0
+P-24859,dos saltos,n_cuentas_plataforma,0.017868
+P-37512,propio,strength,0.058631
+P-37512,propio,pagerank,0.0
+P-37512,propio,en_componente_gigante,0.021875
+P-37512,propio,log_valor_total,0.0
+P-37512,propio,log_valor_medio,0.343925
+P-37512,propio,n_procesos,0.053019
+P-37512,propio,n_cuentas_plataforma,0.0
+P-37512,un salto,strength,0.0
+P-37512,un salto,pagerank,0.0
+P-37512,un salto,en_componente_gigante,0.0
+P-37512,un salto,log_valor_total,0.243098
+P-37512,un salto,log_valor_medio,0.18159
+P-37512,un salto,n_procesos,0.0
+P-37512,un salto,n_cuentas_plataforma,0.014749
+P-37512,dos saltos,strength,0.0
+P-37512,dos saltos,pagerank,0.0
+P-37512,dos saltos,en_componente_gigante,0.0
+P-37512,dos saltos,log_valor_total,0.0
+P-37512,dos saltos,log_valor_medio,-0.153639
+P-37512,dos saltos,n_procesos,0.011608
+P-37512,dos saltos,n_cuentas_plataforma,0.030159
+N-37878,propio,strength,0.0
+N-37878,propio,pagerank,0.044784
+N-37878,propio,en_componente_gigante,0.0
+N-37878,propio,log_valor_total,0.0
+N-37878,propio,log_valor_medio,0.060339
+N-37878,propio,n_procesos,0.108049
+N-37878,propio,n_cuentas_plataforma,0.0
+N-37878,un salto,strength,0.030801
+N-37878,un salto,pagerank,0.060249
+N-37878,un salto,en_componente_gigante,0.024338
+N-37878,un salto,log_valor_total,0.0
+N-37878,un salto,log_valor_medio,0.055173
+N-37878,un salto,n_procesos,0.026524
+N-37878,un salto,n_cuentas_plataforma,0.0
+N-37878,dos saltos,strength,0.0
+N-37878,dos saltos,pagerank,0.0
+N-37878,dos saltos,en_componente_gigante,0.0
+N-37878,dos saltos,log_valor_total,0.127623
+N-37878,dos saltos,log_valor_medio,0.263496
+N-37878,dos saltos,n_procesos,0.0
+N-37878,dos saltos,n_cuentas_plataforma,0.0
+P-47783,propio,strength,0.049295
+P-47783,propio,pagerank,0.046679
+P-47783,propio,en_componente_gigante,0.027462
+P-47783,propio,log_valor_total,0.0
+P-47783,propio,log_valor_medio,0.062537
+P-47783,propio,n_procesos,0.0
+P-47783,propio,n_cuentas_plataforma,0.0
+P-47783,un salto,strength,0.105054
+P-47783,un salto,pagerank,0.09684
+P-47783,un salto,en_componente_gigante,0.0
+P-47783,un salto,log_valor_total,0.0
+P-47783,un salto,log_valor_medio,0.021404
+P-47783,un salto,n_procesos,0.0
+P-47783,un salto,n_cuentas_plataforma,0.0
+P-47783,dos saltos,strength,0.0
+P-47783,dos saltos,pagerank,0.0
+P-47783,dos saltos,en_componente_gigante,0.0
+P-47783,dos saltos,log_valor_total,0.131803
+P-47783,dos saltos,log_valor_medio,0.237932
+P-47783,dos saltos,n_procesos,0.021075
+P-47783,dos saltos,n_cuentas_plataforma,0.0
+P-08604,propio,strength,0.438263
+P-08604,propio,pagerank,-0.341592
+P-08604,propio,en_componente_gigante,0.0
+P-08604,propio,log_valor_total,0.057207
+P-08604,propio,log_valor_medio,0.0
+P-08604,propio,n_procesos,0.474915
+P-08604,propio,n_cuentas_plataforma,0.0
+P-08604,un salto,strength,0.0
+P-08604,un salto,pagerank,0.010092
+P-08604,un salto,en_componente_gigante,0.0
+P-08604,un salto,log_valor_total,-0.116564
+P-08604,un salto,log_valor_medio,0.088356
+P-08604,un salto,n_procesos,0.0
+P-08604,un salto,n_cuentas_plataforma,0.048754
+P-08604,dos saltos,strength,0.0
+P-08604,dos saltos,pagerank,0.0
+P-08604,dos saltos,en_componente_gigante,0.0
+P-08604,dos saltos,log_valor_total,0.0
+P-08604,dos saltos,log_valor_medio,0.098644
+P-08604,dos saltos,n_procesos,0.0
+P-08604,dos saltos,n_cuentas_plataforma,0.038863
+N-01780,propio,strength,0.384932
+N-01780,propio,pagerank,-0.255215
+N-01780,propio,en_componente_gigante,0.02855
+N-01780,propio,log_valor_total,0.0
+N-01780,propio,log_valor_medio,0.0
+N-01780,propio,n_procesos,0.485785
+N-01780,propio,n_cuentas_plataforma,0.0
+N-01780,un salto,strength,0.162977
+N-01780,un salto,pagerank,-0.122066
+N-01780,un salto,en_componente_gigante,0.0
+N-01780,un salto,log_valor_total,-0.073822
+N-01780,un salto,log_valor_medio,0.0
+N-01780,un salto,n_procesos,0.0
+N-01780,un salto,n_cuentas_plataforma,0.033834
+N-01780,dos saltos,strength,0.136511
+N-01780,dos saltos,pagerank,0.0
+N-01780,dos saltos,en_componente_gigante,0.0
+N-01780,dos saltos,log_valor_total,0.0
+N-01780,dos saltos,log_valor_medio,0.014149
+N-01780,dos saltos,n_procesos,0.0
+N-01780,dos saltos,n_cuentas_plataforma,0.0
+P-12747,propio,strength,0.091195
+P-12747,propio,pagerank,0.0
+P-12747,propio,en_componente_gigante,0.0
+P-12747,propio,log_valor_total,0.049127
+P-12747,propio,log_valor_medio,0.027087
+P-12747,propio,n_procesos,0.037121
+P-12747,propio,n_cuentas_plataforma,0.0
+P-12747,un salto,strength,0.030651
+P-12747,un salto,pagerank,0.031561
+P-12747,un salto,en_componente_gigante,0.0
+P-12747,un salto,log_valor_total,0.0
+P-12747,un salto,log_valor_medio,0.061352
+P-12747,un salto,n_procesos,0.056724
+P-12747,un salto,n_cuentas_plataforma,0.0
+P-12747,dos saltos,strength,0.0
+P-12747,dos saltos,pagerank,0.0
+P-12747,dos saltos,en_componente_gigante,0.0
+P-12747,dos saltos,log_valor_total,0.129862
+P-12747,dos saltos,log_valor_medio,0.279147
+P-12747,dos saltos,n_procesos,0.0
+P-12747,dos saltos,n_cuentas_plataforma,0.0
+P-15471,propio,strength,0.525947
+P-15471,propio,pagerank,-0.46437
+P-15471,propio,en_componente_gigante,0.0
+P-15471,propio,log_valor_total,0.050356
+P-15471,propio,log_valor_medio,0.0
+P-15471,propio,n_procesos,0.495957
+P-15471,propio,n_cuentas_plataforma,0.0
+P-15471,un salto,strength,0.025068
+P-15471,un salto,pagerank,0.0
+P-15471,un salto,en_componente_gigante,0.0
+P-15471,un salto,log_valor_total,0.128318
+P-15471,un salto,log_valor_medio,0.0
+P-15471,un salto,n_procesos,0.0
+P-15471,un salto,n_cuentas_plataforma,0.049656
+P-15471,dos saltos,strength,0.059131
+P-15471,dos saltos,pagerank,0.0
+P-15471,dos saltos,en_componente_gigante,0.0
+P-15471,dos saltos,log_valor_total,0.0
+P-15471,dos saltos,log_valor_medio,-0.107838
+P-15471,dos saltos,n_procesos,0.028622
+P-15471,dos saltos,n_cuentas_plataforma,0.0
+N-06930,propio,strength,0.070331
+N-06930,propio,pagerank,0.053243
+N-06930,propio,en_componente_gigante,0.0
+N-06930,propio,log_valor_total,0.0
+N-06930,propio,log_valor_medio,0.065119
+N-06930,propio,n_procesos,0.065543
+N-06930,propio,n_cuentas_plataforma,0.0
+N-06930,un salto,strength,0.060393
+N-06930,un salto,pagerank,0.09598
+N-06930,un salto,en_componente_gigante,0.0
+N-06930,un salto,log_valor_total,0.0
+N-06930,un salto,log_valor_medio,0.0
+N-06930,un salto,n_procesos,0.048053
+N-06930,un salto,n_cuentas_plataforma,0.0
+N-06930,dos saltos,strength,0.0
+N-06930,dos saltos,pagerank,0.0
+N-06930,dos saltos,en_componente_gigante,0.0
+N-06930,dos saltos,log_valor_total,0.124531
+N-06930,dos saltos,log_valor_medio,0.175748
+N-06930,dos saltos,n_procesos,0.030448
+N-06930,dos saltos,n_cuentas_plataforma,0.0
+P-44406,propio,strength,0.485143
+P-44406,propio,pagerank,-0.30647
+P-44406,propio,en_componente_gigante,0.029739
+P-44406,propio,log_valor_total,0.068253
+P-44406,propio,log_valor_medio,0.013708
+P-44406,propio,n_procesos,0.47629
+P-44406,propio,n_cuentas_plataforma,0.0
+P-44406,un salto,strength,0.0
+P-44406,un salto,pagerank,0.0
+P-44406,un salto,en_componente_gigante,0.0
+P-44406,un salto,log_valor_total,-0.088632
+P-44406,un salto,log_valor_medio,0.047308
+P-44406,un salto,n_procesos,0.0
+P-44406,un salto,n_cuentas_plataforma,0.0
+P-44406,dos saltos,strength,0.0
+P-44406,dos saltos,pagerank,0.0
+P-44406,dos saltos,en_componente_gigante,0.0
+P-44406,dos saltos,log_valor_total,0.0
+P-44406,dos saltos,log_valor_medio,0.034958
+P-44406,dos saltos,n_procesos,0.025967
+P-44406,dos saltos,n_cuentas_plataforma,0.0
+P-45484,propio,strength,0.0
+P-45484,propio,pagerank,0.0
+P-45484,propio,en_componente_gigante,0.0
+P-45484,propio,log_valor_total,0.0
+P-45484,propio,log_valor_medio,0.380465
+P-45484,propio,n_procesos,0.059287
+P-45484,propio,n_cuentas_plataforma,0.0
+P-45484,un salto,strength,0.008587
+P-45484,un salto,pagerank,0.0
+P-45484,un salto,en_componente_gigante,0.0
+P-45484,un salto,log_valor_total,0.271754
+P-45484,un salto,log_valor_medio,0.155788
+P-45484,un salto,n_procesos,0.018329
+P-45484,un salto,n_cuentas_plataforma,0.016749
+P-45484,dos saltos,strength,0.0
+P-45484,dos saltos,pagerank,0.0
+P-45484,dos saltos,en_componente_gigante,0.014865
+P-45484,dos saltos,log_valor_total,0.0
+P-45484,dos saltos,log_valor_medio,-0.162831
+P-45484,dos saltos,n_procesos,0.015621
+P-45484,dos saltos,n_cuentas_plataforma,0.0
+P-15924,propio,strength,0.557645
+P-15924,propio,pagerank,-0.371643
+P-15924,propio,en_componente_gigante,0.0
+P-15924,propio,log_valor_total,0.105403
+P-15924,propio,log_valor_medio,0.032307
+P-15924,propio,n_procesos,0.489064
+P-15924,propio,n_cuentas_plataforma,0.0
+P-15924,un salto,strength,0.0
+P-15924,un salto,pagerank,0.0
+P-15924,un salto,en_componente_gigante,0.0
+P-15924,un salto,log_valor_total,-0.043886
+P-15924,un salto,log_valor_medio,0.057075
+P-15924,un salto,n_procesos,0.046083
+P-15924,un salto,n_cuentas_plataforma,0.0
+P-15924,dos saltos,strength,0.0
+P-15924,dos saltos,pagerank,-0.054049
+P-15924,dos saltos,en_componente_gigante,0.0
+P-15924,dos saltos,log_valor_total,0.0
+P-15924,dos saltos,log_valor_medio,0.0
+P-15924,dos saltos,n_procesos,0.0
+P-15924,dos saltos,n_cuentas_plataforma,-0.041169
+N-27065,propio,strength,0.028754
+N-27065,propio,pagerank,0.059296
+N-27065,propio,en_componente_gigante,0.0
+N-27065,propio,log_valor_total,0.03003
+N-27065,propio,log_valor_medio,0.092159
+N-27065,propio,n_procesos,0.083083
+N-27065,propio,n_cuentas_plataforma,0.0
+N-27065,un salto,strength,0.101504
+N-27065,un salto,pagerank,0.050282
+N-27065,un salto,en_componente_gigante,0.0
+N-27065,un salto,log_valor_total,0.0
+N-27065,un salto,log_valor_medio,0.0
+N-27065,un salto,n_procesos,0.0
+N-27065,un salto,n_cuentas_plataforma,0.0
+N-27065,dos saltos,strength,0.0
+N-27065,dos saltos,pagerank,0.0
+N-27065,dos saltos,en_componente_gigante,0.0
+N-27065,dos saltos,log_valor_total,0.103278
+N-27065,dos saltos,log_valor_medio,0.195817
+N-27065,dos saltos,n_procesos,0.032528
+N-27065,dos saltos,n_cuentas_plataforma,0.0
+P-34492,propio,strength,0.440868
+P-34492,propio,pagerank,-0.314539
+P-34492,propio,en_componente_gigante,0.0
+P-34492,propio,log_valor_total,0.0
+P-34492,propio,log_valor_medio,0.0
+P-34492,propio,n_procesos,0.485762
+P-34492,propio,n_cuentas_plataforma,0.0
+P-34492,un salto,strength,0.0
+P-34492,un salto,pagerank,0.041438
+P-34492,un salto,en_componente_gigante,0.0
+P-34492,un salto,log_valor_total,0.144327
+P-34492,un salto,log_valor_medio,-0.060475
+P-34492,un salto,n_procesos,0.0
+P-34492,un salto,n_cuentas_plataforma,0.0
+P-34492,dos saltos,strength,0.043267
+P-34492,dos saltos,pagerank,0.0
+P-34492,dos saltos,en_componente_gigante,0.0
+P-34492,dos saltos,log_valor_total,0.04516
+P-34492,dos saltos,log_valor_medio,-0.083326
+P-34492,dos saltos,n_procesos,0.033076
+P-34492,dos saltos,n_cuentas_plataforma,0.0
+P-21752,propio,strength,0.066965
+P-21752,propio,pagerank,0.03752
+P-21752,propio,en_componente_gigante,0.0
+P-21752,propio,log_valor_total,0.033384
+P-21752,propio,log_valor_medio,0.134214
+P-21752,propio,n_procesos,0.054746
+P-21752,propio,n_cuentas_plataforma,0.0
+P-21752,un salto,strength,0.066924
+P-21752,un salto,pagerank,0.061068
+P-21752,un salto,en_componente_gigante,0.0
+P-21752,un salto,log_valor_total,0.0
+P-21752,un salto,log_valor_medio,0.0
+P-21752,un salto,n_procesos,0.050284
+P-21752,un salto,n_cuentas_plataforma,0.0
+P-21752,dos saltos,strength,0.0
+P-21752,dos saltos,pagerank,0.0
+P-21752,dos saltos,en_componente_gigante,0.0
+P-21752,dos saltos,log_valor_total,0.096549
+P-21752,dos saltos,log_valor_medio,0.169155
+P-21752,dos saltos,n_procesos,0.0
+P-21752,dos saltos,n_cuentas_plataforma,0.0
+P-49149,propio,strength,0.054824
+P-49149,propio,pagerank,0.039336
+P-49149,propio,en_componente_gigante,0.0
+P-49149,propio,log_valor_total,0.0
+P-49149,propio,log_valor_medio,0.022191
+P-49149,propio,n_procesos,0.046321
+P-49149,propio,n_cuentas_plataforma,0.0
+P-49149,un salto,strength,0.041495
+P-49149,un salto,pagerank,0.095993
+P-49149,un salto,en_componente_gigante,0.0
+P-49149,un salto,log_valor_total,0.0
+P-49149,un salto,log_valor_medio,0.050367
+P-49149,un salto,n_procesos,0.0
+P-49149,un salto,n_cuentas_plataforma,0.025158
+P-49149,dos saltos,strength,0.0
+P-49149,dos saltos,pagerank,0.0
+P-49149,dos saltos,en_componente_gigante,0.0
+P-49149,dos saltos,log_valor_total,0.151178
+P-49149,dos saltos,log_valor_medio,0.24188
+P-49149,dos saltos,n_procesos,0.0
+P-49149,dos saltos,n_cuentas_plataforma,0.0
+P-27821,propio,strength,0.483268
+P-27821,propio,pagerank,-0.394754
+P-27821,propio,en_componente_gigante,0.0
+P-27821,propio,log_valor_total,0.035239
+P-27821,propio,log_valor_medio,0.0
+P-27821,propio,n_procesos,0.48545
+P-27821,propio,n_cuentas_plataforma,0.0
+P-27821,un salto,strength,0.035572
+P-27821,un salto,pagerank,0.0
+P-27821,un salto,en_componente_gigante,0.0
+P-27821,un salto,log_valor_total,-0.115309
+P-27821,un salto,log_valor_medio,0.0
+P-27821,un salto,n_procesos,0.0
+P-27821,un salto,n_cuentas_plataforma,0.0
+P-27821,dos saltos,strength,0.0
+P-27821,dos saltos,pagerank,0.038195
+P-27821,dos saltos,en_componente_gigante,0.0
+P-27821,dos saltos,log_valor_total,0.0
+P-27821,dos saltos,log_valor_medio,0.125482
+P-27821,dos saltos,n_procesos,0.047198
+P-27821,dos saltos,n_cuentas_plataforma,0.027392
+P-12820,propio,strength,0.058026
+P-12820,propio,pagerank,0.051331
+P-12820,propio,en_componente_gigante,0.0
+P-12820,propio,log_valor_total,0.03656
+P-12820,propio,log_valor_medio,0.051226
+P-12820,propio,n_procesos,0.067182
+P-12820,propio,n_cuentas_plataforma,0.0
+P-12820,un salto,strength,0.043779
+P-12820,un salto,pagerank,0.034984
+P-12820,un salto,en_componente_gigante,0.0
+P-12820,un salto,log_valor_total,0.0
+P-12820,un salto,log_valor_medio,0.031322
+P-12820,un salto,n_procesos,0.0
+P-12820,un salto,n_cuentas_plataforma,0.0
+P-12820,dos saltos,strength,0.0
+P-12820,dos saltos,pagerank,0.0
+P-12820,dos saltos,en_componente_gigante,0.0
+P-12820,dos saltos,log_valor_total,0.145375
+P-12820,dos saltos,log_valor_medio,0.247405
+P-12820,dos saltos,n_procesos,0.0
+P-12820,dos saltos,n_cuentas_plataforma,0.0
+N-21614,propio,strength,0.069611
+N-21614,propio,pagerank,0.060692
+N-21614,propio,en_componente_gigante,0.0
+N-21614,propio,log_valor_total,-0.100104
+N-21614,propio,log_valor_medio,0.220284
+N-21614,propio,n_procesos,0.079336
+N-21614,propio,n_cuentas_plataforma,0.0
+N-21614,un salto,strength,0.059772
+N-21614,un salto,pagerank,0.049885
+N-21614,un salto,en_componente_gigante,0.0
+N-21614,un salto,log_valor_total,0.0
+N-21614,un salto,log_valor_medio,0.0
+N-21614,un salto,n_procesos,0.0
+N-21614,un salto,n_cuentas_plataforma,0.0
+N-21614,dos saltos,strength,0.0
+N-21614,dos saltos,pagerank,0.0
+N-21614,dos saltos,en_componente_gigante,0.0
+N-21614,dos saltos,log_valor_total,0.105018
+N-21614,dos saltos,log_valor_medio,0.180713
+N-21614,dos saltos,n_procesos,0.041898
+N-21614,dos saltos,n_cuentas_plataforma,0.0
+P-46119,propio,strength,0.47223
+P-46119,propio,pagerank,-0.333541
+P-46119,propio,en_componente_gigante,0.0
+P-46119,propio,log_valor_total,0.056527
+P-46119,propio,log_valor_medio,-0.060768
+P-46119,propio,n_procesos,0.405736
+P-46119,propio,n_cuentas_plataforma,0.0
+P-46119,un salto,strength,0.0
+P-46119,un salto,pagerank,0.040991
+P-46119,un salto,en_componente_gigante,0.0
+P-46119,un salto,log_valor_total,-0.085278
+P-46119,un salto,log_valor_medio,0.089103
+P-46119,un salto,n_procesos,0.0
+P-46119,un salto,n_cuentas_plataforma,0.0
+P-46119,dos saltos,strength,0.0
+P-46119,dos saltos,pagerank,0.030262
+P-46119,dos saltos,en_componente_gigante,0.0
+P-46119,dos saltos,log_valor_total,0.0
+P-46119,dos saltos,log_valor_medio,0.151151
+P-46119,dos saltos,n_procesos,0.0
+P-46119,dos saltos,n_cuentas_plataforma,0.0
+P-20714,propio,strength,0.5144
+P-20714,propio,pagerank,-0.400074
+P-20714,propio,en_componente_gigante,-0.059608
+P-20714,propio,log_valor_total,0.107132
+P-20714,propio,log_valor_medio,0.0
+P-20714,propio,n_procesos,0.53453
+P-20714,propio,n_cuentas_plataforma,0.0
+P-20714,un salto,strength,0.0
+P-20714,un salto,pagerank,-0.034821
+P-20714,un salto,en_componente_gigante,0.0
+P-20714,un salto,log_valor_total,0.0
+P-20714,un salto,log_valor_medio,0.053092
+P-20714,un salto,n_procesos,0.0
+P-20714,un salto,n_cuentas_plataforma,0.0
+P-20714,dos saltos,strength,0.066143
+P-20714,dos saltos,pagerank,0.0
+P-20714,dos saltos,en_componente_gigante,-0.041807
+P-20714,dos saltos,log_valor_total,0.0
+P-20714,dos saltos,log_valor_medio,0.022008
+P-20714,dos saltos,n_procesos,0.0
+P-20714,dos saltos,n_cuentas_plataforma,0.0
+P-23308,propio,strength,0.049777
+P-23308,propio,pagerank,0.041244
+P-23308,propio,en_componente_gigante,0.0
+P-23308,propio,log_valor_total,0.0
+P-23308,propio,log_valor_medio,0.065858
+P-23308,propio,n_procesos,0.046828
+P-23308,propio,n_cuentas_plataforma,0.0
+P-23308,un salto,strength,0.041306
+P-23308,un salto,pagerank,0.0
+P-23308,un salto,en_componente_gigante,0.0
+P-23308,un salto,log_valor_total,0.248861
+P-23308,un salto,log_valor_medio,0.086675
+P-23308,un salto,n_procesos,0.077925
+P-23308,un salto,n_cuentas_plataforma,0.0
+P-23308,dos saltos,strength,0.062235
+P-23308,dos saltos,pagerank,0.0
+P-23308,dos saltos,en_componente_gigante,0.0
+P-23308,dos saltos,log_valor_total,0.0
+P-23308,dos saltos,log_valor_medio,0.0
+P-23308,dos saltos,n_procesos,0.040086
+P-23308,dos saltos,n_cuentas_plataforma,0.0
+N-22227,propio,strength,0.048389
+N-22227,propio,pagerank,0.043995
+N-22227,propio,en_componente_gigante,0.0
+N-22227,propio,log_valor_total,0.025276
+N-22227,propio,log_valor_medio,0.025971
+N-22227,propio,n_procesos,0.0
+N-22227,propio,n_cuentas_plataforma,0.0
+N-22227,un salto,strength,0.045905
+N-22227,un salto,pagerank,0.034583
+N-22227,un salto,en_componente_gigante,0.0
+N-22227,un salto,log_valor_total,0.292954
+N-22227,un salto,log_valor_medio,0.129009
+N-22227,un salto,n_procesos,0.067112
+N-22227,un salto,n_cuentas_plataforma,0.0
+N-22227,dos saltos,strength,0.045486
+N-22227,dos saltos,pagerank,0.0
+N-22227,dos saltos,en_componente_gigante,0.0
+N-22227,dos saltos,log_valor_total,0.0
+N-22227,dos saltos,log_valor_medio,0.0
+N-22227,dos saltos,n_procesos,0.0
+N-22227,dos saltos,n_cuentas_plataforma,0.0
+N-19687,propio,strength,0.099797
+N-19687,propio,pagerank,0.048127
+N-19687,propio,en_componente_gigante,0.0
+N-19687,propio,log_valor_total,0.0
+N-19687,propio,log_valor_medio,0.028275
+N-19687,propio,n_procesos,0.113845
+N-19687,propio,n_cuentas_plataforma,0.0
+N-19687,un salto,strength,0.0188
+N-19687,un salto,pagerank,0.0
+N-19687,un salto,en_componente_gigante,0.0
+N-19687,un salto,log_valor_total,0.317899
+N-19687,un salto,log_valor_medio,0.0
+N-19687,un salto,n_procesos,0.0887
+N-19687,un salto,n_cuentas_plataforma,0.0
+N-19687,dos saltos,strength,0.115361
+N-19687,dos saltos,pagerank,0.0
+N-19687,dos saltos,en_componente_gigante,0.0
+N-19687,dos saltos,log_valor_total,0.060951
+N-19687,dos saltos,log_valor_medio,-0.134539
+N-19687,dos saltos,n_procesos,0.0
+N-19687,dos saltos,n_cuentas_plataforma,0.0
+P-46283,propio,strength,0.026799
+P-46283,propio,pagerank,0.032235
+P-46283,propio,en_componente_gigante,0.0
+P-46283,propio,log_valor_total,0.047145
+P-46283,propio,log_valor_medio,0.0
+P-46283,propio,n_procesos,0.051194
+P-46283,propio,n_cuentas_plataforma,0.0
+P-46283,un salto,strength,0.059682
+P-46283,un salto,pagerank,0.074568
+P-46283,un salto,en_componente_gigante,0.0
+P-46283,un salto,log_valor_total,0.0
+P-46283,un salto,log_valor_medio,0.0
+P-46283,un salto,n_procesos,0.0
+P-46283,un salto,n_cuentas_plataforma,0.0
+P-46283,dos saltos,strength,0.0
+P-46283,dos saltos,pagerank,0.036486
+P-46283,dos saltos,en_componente_gigante,0.0
+P-46283,dos saltos,log_valor_total,0.136115
+P-46283,dos saltos,log_valor_medio,0.25775
+P-46283,dos saltos,n_procesos,0.031771
+P-46283,dos saltos,n_cuentas_plataforma,0.0
+P-42765,propio,strength,0.448272
+P-42765,propio,pagerank,-0.272089
+P-42765,propio,en_componente_gigante,0.0
+P-42765,propio,log_valor_total,0.085889
+P-42765,propio,log_valor_medio,0.0
+P-42765,propio,n_procesos,0.380678
+P-42765,propio,n_cuentas_plataforma,-0.063484
+P-42765,un salto,strength,0.0
+P-42765,un salto,pagerank,0.068474
+P-42765,un salto,en_componente_gigante,0.0
+P-42765,un salto,log_valor_total,-0.040289
+P-42765,un salto,log_valor_medio,0.052512
+P-42765,un salto,n_procesos,0.0
+P-42765,un salto,n_cuentas_plataforma,0.0
+P-42765,dos saltos,strength,0.0
+P-42765,dos saltos,pagerank,0.029434
+P-42765,dos saltos,en_componente_gigante,0.0
+P-42765,dos saltos,log_valor_total,0.0
+P-42765,dos saltos,log_valor_medio,0.064336
+P-42765,dos saltos,n_procesos,0.0
+P-42765,dos saltos,n_cuentas_plataforma,0.0
+P-00776,propio,strength,0.05462
+P-00776,propio,pagerank,0.045305
+P-00776,propio,en_componente_gigante,0.018368
+P-00776,propio,log_valor_total,0.0
+P-00776,propio,log_valor_medio,0.133019
+P-00776,propio,n_procesos,0.062811
+P-00776,propio,n_cuentas_plataforma,0.0
+P-00776,un salto,strength,0.072013
+P-00776,un salto,pagerank,0.060649
+P-00776,un salto,en_componente_gigante,0.0
+P-00776,un salto,log_valor_total,0.0
+P-00776,un salto,log_valor_medio,0.0
+P-00776,un salto,n_procesos,0.027246
+P-00776,un salto,n_cuentas_plataforma,0.0
+P-00776,dos saltos,strength,0.0
+P-00776,dos saltos,pagerank,0.0
+P-00776,dos saltos,en_componente_gigante,0.0
+P-00776,dos saltos,log_valor_total,0.104752
+P-00776,dos saltos,log_valor_medio,0.174944
+P-00776,dos saltos,n_procesos,0.0
+P-00776,dos saltos,n_cuentas_plataforma,0.0
+P-22272,propio,strength,0.551335
+P-22272,propio,pagerank,-0.344774
+P-22272,propio,en_componente_gigante,0.0
+P-22272,propio,log_valor_total,0.052972
+P-22272,propio,log_valor_medio,0.0
+P-22272,propio,n_procesos,0.468936
+P-22272,propio,n_cuentas_plataforma,0.0
+P-22272,un salto,strength,0.0
+P-22272,un salto,pagerank,0.031276
+P-22272,un salto,en_componente_gigante,0.0
+P-22272,un salto,log_valor_total,-0.118719
+P-22272,un salto,log_valor_medio,0.071885
+P-22272,un salto,n_procesos,0.0
+P-22272,un salto,n_cuentas_plataforma,0.01646
+P-22272,dos saltos,strength,0.0
+P-22272,dos saltos,pagerank,0.0
+P-22272,dos saltos,en_componente_gigante,0.0
+P-22272,dos saltos,log_valor_total,0.0
+P-22272,dos saltos,log_valor_medio,0.048451
+P-22272,dos saltos,n_procesos,-0.02521
+P-22272,dos saltos,n_cuentas_plataforma,0.0
+N-20776,propio,strength,0.0
+N-20776,propio,pagerank,0.046536
+N-20776,propio,en_componente_gigante,0.0
+N-20776,propio,log_valor_total,0.0
+N-20776,propio,log_valor_medio,0.097183
+N-20776,propio,n_procesos,0.0
+N-20776,propio,n_cuentas_plataforma,0.0
+N-20776,un salto,strength,0.064409
+N-20776,un salto,pagerank,0.064879
+N-20776,un salto,en_componente_gigante,0.028139
+N-20776,un salto,log_valor_total,0.0
+N-20776,un salto,log_valor_medio,0.0
+N-20776,un salto,n_procesos,0.0657
+N-20776,un salto,n_cuentas_plataforma,0.0
+N-20776,dos saltos,strength,0.0
+N-20776,dos saltos,pagerank,0.02813
+N-20776,dos saltos,en_componente_gigante,0.0
+N-20776,dos saltos,log_valor_total,0.095783
+N-20776,dos saltos,log_valor_medio,0.214
+N-20776,dos saltos,n_procesos,0.041305
+N-20776,dos saltos,n_cuentas_plataforma,0.0
+N-12030,propio,strength,0.55015
+N-12030,propio,pagerank,-0.471075
+N-12030,propio,en_componente_gigante,0.017765
+N-12030,propio,log_valor_total,0.02356
+N-12030,propio,log_valor_medio,0.0
+N-12030,propio,n_procesos,0.473391
+N-12030,propio,n_cuentas_plataforma,0.0
+N-12030,un salto,strength,0.0
+N-12030,un salto,pagerank,0.0
+N-12030,un salto,en_componente_gigante,0.008107
+N-12030,un salto,log_valor_total,0.078755
+N-12030,un salto,log_valor_medio,0.0
+N-12030,un salto,n_procesos,0.010683
+N-12030,un salto,n_cuentas_plataforma,0.0
+N-12030,dos saltos,strength,0.0
+N-12030,dos saltos,pagerank,0.013854
+N-12030,dos saltos,en_componente_gigante,0.0
+N-12030,dos saltos,log_valor_total,0.040805
+N-12030,dos saltos,log_valor_medio,0.0
+N-12030,dos saltos,n_procesos,0.0
+N-12030,dos saltos,n_cuentas_plataforma,0.0
+P-15463,propio,strength,0.05797
+P-15463,propio,pagerank,0.0
+P-15463,propio,en_componente_gigante,0.0
+P-15463,propio,log_valor_total,0.0
+P-15463,propio,log_valor_medio,0.096321
+P-15463,propio,n_procesos,0.066125
+P-15463,propio,n_cuentas_plataforma,0.0
+P-15463,un salto,strength,0.03726
+P-15463,un salto,pagerank,0.017504
+P-15463,un salto,en_componente_gigante,0.0
+P-15463,un salto,log_valor_total,0.267521
+P-15463,un salto,log_valor_medio,0.09224
+P-15463,un salto,n_procesos,0.019479
+P-15463,un salto,n_cuentas_plataforma,0.0
+P-15463,dos saltos,strength,0.06934
+P-15463,dos saltos,pagerank,0.0
+P-15463,dos saltos,en_componente_gigante,0.0
+P-15463,dos saltos,log_valor_total,0.020675
+P-15463,dos saltos,log_valor_medio,0.0
+P-15463,dos saltos,n_procesos,0.0
+P-15463,dos saltos,n_cuentas_plataforma,0.0
+N-11275,propio,strength,0.089199
+N-11275,propio,pagerank,0.0
+N-11275,propio,en_componente_gigante,0.0
+N-11275,propio,log_valor_total,0.037998
+N-11275,propio,log_valor_medio,0.096979
+N-11275,propio,n_procesos,0.075456
+N-11275,propio,n_cuentas_plataforma,0.0
+N-11275,un salto,strength,0.081084
+N-11275,un salto,pagerank,0.0
+N-11275,un salto,en_componente_gigante,0.0
+N-11275,un salto,log_valor_total,-0.135576
+N-11275,un salto,log_valor_medio,0.07394
+N-11275,un salto,n_procesos,0.0
+N-11275,un salto,n_cuentas_plataforma,0.0
+N-11275,dos saltos,strength,0.0
+N-11275,dos saltos,pagerank,0.0
+N-11275,dos saltos,en_componente_gigante,0.0
+N-11275,dos saltos,log_valor_total,0.083795
+N-11275,dos saltos,log_valor_medio,0.299878
+N-11275,dos saltos,n_procesos,0.040467
+N-11275,dos saltos,n_cuentas_plataforma,0.0

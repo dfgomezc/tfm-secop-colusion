@@ -1,0 +1,5 @@
+Modelo,AUC-ROC,PR-AUC,F1,Precision@200,Recall@200
+SNA - Regresión Logística,0.6127,0.1492,0.0,0.305,0.0245
+ML - Random Forest,0.7106,0.1879,0.0032,0.235,0.0189
+ML - Gradient Boosting,0.7131,0.1897,0.0,0.255,0.0205
+SGC - propagación + MLP,0.706,0.1903,0.0,0.32,0.0257
